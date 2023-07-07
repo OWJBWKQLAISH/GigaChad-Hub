@@ -1,0 +1,3054 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Yopapa699/KavoUI/main/KavoUiLib"))()
+local Window = Library.CreateLib("Gigachad Hub V3", "DarkTheme")
+local GameId = game.PlaceId
+local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+local plrs = game:GetService("Players")
+local plr = plrs.LocalPlayer
+local plrname = plr.Name
+local plrid = plr.UserId
+local plrchr = plr.Character
+local plrage = plr.AccountAge
+local plrcount = #game.Players:GetPlayers()
+
+--Home
+local Tab = Window:NewTab("Home")
+local Section = Tab:NewSection("Welcome:" ..plrname.. " To:Gigachad hub")
+local Section = Tab:NewSection("Player Id: "..game.Players.LocalPlayer.UserId .."")
+local Section = Tab:NewSection("Account Age: "..game.Players.LocalPlayer.AccountAge.."")
+local Section = Tab:NewSection("Note:Inspired By Multi Scripter X")
+
+--Games
+local Game = Window:NewTab("Games")
+--Custom Section
+local GameSection = Game:NewSection("Note:Some Scripts Are New And Old")
+--Bed Wars
+local GameSection = Game:NewSection("Bedwars")
+GameSection:NewButton("IceCat", "Credits to Owner", function()
+  loadstring(game:HttpGet(('https://github.com/Baconontop/bedwarsV2/raw/main/IcecatBedwars'),true))()
+end)
+GameSection:NewButton("JH NN Gaming Bedwars V3.0", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/2HNVwUvm"))()
+end)
+GameSection:NewButton("Future", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+GameSection:NewButton("Nightbed", "Credit to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/NightbedX/main/NightbedScriptLol/mostNightbed.lua", true))()
+end)
+GameSection:NewButton("VAPE V4", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+GameSection:NewButton("KEYBOARD SCRIPT", "FOR VAPE V4", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+--Blox Fruit
+local GameSection = Game:NewSection("Blox Fruit")
+GameSection:NewButton("Blox fruit 1", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ArceusXHub/atomic-hub/main/atomic-hub.lua"))()
+end)
+GameSection:NewButton("Blox fruit 2", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/Bestxemchua/agagagaq/main/BeoHUB/BeoHUB.lua'))()
+end)
+GameSection:NewButton("Blox fruit 3", "Credits to Owner", function()
+  loadstring(game:HttpGetAsync("https://blacktrap.org/blacktrap/users/checkpoint/Auth.txt"))()
+end)
+GameSection:NewButton("Blox fruit 4", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruitV2.lua"))()
+end)
+GameSection:NewButton("Blox fruit 5", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Steveee11/Scripts/main/Blox%20Fruits%20OP%20Script"))()
+end)
+GameSection:NewButton("Blox fruit 6", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://codeberg.org/CokkaHub/Loadstring/raw/branch/main/CokkaHub.lua"))()
+end)
+GameSection:NewButton("Blox fruit 7", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/KudoCon/DestinyHub/main/DestinyKey"))()
+end)
+GameSection:NewButton("Blox fruit 8", "Credits to Owner", function()
+  loadstring(game:HttpGetAsync("https://Dynamic.xcodehoster.com/loader.lua"))()
+end)
+GameSection:NewButton("Blox fruit 9", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+end)
+GameSection:NewButton("Blox fruit 10", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/flares"))()
+end)
+GameSection:NewButton("Blox fruit 11", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/tufreescript/FTS-X-Hub/main/FTSXHUB%20V1'))()
+end)
+GameSection:NewButton("Blox fruit 12", "Credits to Owner", function()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/Tulam2000/FTS-HUB/main/FTS%20x%20Hub')))()
+end)
+GameSection:NewButton("Blox fruit 13", "Credits to Owner", function()
+  loadstring(game:HttpGet'https://raw.githubusercontent.com/HALOxHUB/ScriptLoader/main/Loader.lua')()
+end)
+GameSection:NewButton("Blox fruit 14", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+GameSection:NewButton("Blox fruit 15", "Credits to Owner", function()
+  loadstring(Game:HttpGet"https://raw.githubusercontent.com/JJTChannel/JJTxHUB/main/Re-come.lua")()
+end)
+GameSection:NewButton("Blox fruit 16", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey", true))()
+end)
+GameSection:NewButton("Blox fruit 18", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/Piwwy0909/MakimaRemake/main/Cumback.Makima'))()
+end)
+GameSection:NewButton("Blox fruit 19", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/BloxFruit.lua"))()
+end)
+GameSection:NewButton("Blox fruit 20", "Credits to Owner", function()
+  loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NexuzHub/Main-/main/Script"))()
+end)
+GameSection:NewButton("Blox fruit 21", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+end)
+GameSection:NewButton("Blox fruit 22", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://paste.xyzo.space/rblxhub/all.lua"))()
+end)
+GameSection:NewButton("Blox fruit 23", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/SagiHub"))()
+end)
+GameSection:NewButton("Blox fruit 24", "Credits to Owner", function()
+  loadstring(game:HttpGetAsync('https://sharetext.me/raw/u3if6m3hgr'))()
+end)
+GameSection:NewButton("Blox fruit 25", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/Protected-25.lua"))()
+end)
+GameSection:NewButton("Blox fruit 26", "Credits to Owner", function()
+  loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()
+end)
+GameSection:NewButton("Blox fruit 27", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
+end)
+GameSection:NewButton("Blox fruit 28", "Credits to Owner", function()
+  loadstring(Game:HttpGet"https://gitlab.com/turbohubz/loader.xyz/loader/-/raw/main/TurboHub-Loader")()
+end)
+GameSection:NewButton("Blox Fruit 29(No Key)", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+end)
+GameSection:NewButton("Blox Fruit 30", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script"))()
+end)
+GameSection:NewButton("Blox fruit 31", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/xlostpexz/tyuiop/Fps/Loading.lua"))()
+end)
+GameSection:NewButton("Blox Fruit 32", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Larinax999/leak/main/khemtitgamerHUB-BF.lua"))()
+end)
+GameSection:NewButton("Blox Fruit 33", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/Sixnumz/ZamexMobile/main/Zamex_Mobile.lua'))()
+end)
+GameSection:NewButton("Blox Fruit 34", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
+end)
+GameSection:NewButton("Blox fruit 35(Pc)", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/ZaqueHub/BloxFruitPC/main/Protected.lua'))()
+end)
+GameSection:NewButton("Blox fruit 36", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://zKuzy.link/ZeeHub.lua"))()
+end)
+GameSection:NewButton("Blox fruit 37", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+end)
+--DOORS
+local GameSection = Game:NewSection("Doors")
+GameSection:NewButton("Doors 1", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Doors"))()
+end)
+GameSection:NewButton("Doors 2", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+GameSection:NewButton("Doors 3", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/CreepyPSC/dxrkhub/main/doors-scripts/hub-source"))()
+end)
+GameSection:NewButton("Doors 4 (Entity Spawner)", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
+end)
+GameSection:NewButton("Doors 5", "Credits to Owner", function()
+  loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+end)
+GameSection:NewButton("Doors 5", "Credits to Owner", function()
+  loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
+end)
+GameSection:NewButton("Doors 6", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/DoorsV3_ByNerd.lua"))()
+end)
+GameSection:NewButton("Doors 7", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/doorsnerdv4.lua"))()
+end)
+GameSection:NewButton("Doors 8", "Credits To Owner", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/bxeZwRjU'))()
+end)
+GameSection:NewButton("Doors 9", "Credits To Owner", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/pQ0f9r7D'))()
+end)
+GameSection:NewButton("Doors 10", "Credits To Owner", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/tPEZAAuz'))()
+end)
+GameSection:NewButton("Doors 11", "Credits To Owner", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+end)
+--Muscle Legend
+local GameSection = Game:NewSection("Muscle Legend")
+GameSection:NewButton("Muscle Legend 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+end)
+GameSection:NewButton("Muscle Legend 2", "Credits To Owner", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+end)
+GameSection:NewButton("Muscle Legend 3", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+end)
+GameSection:NewButton("Muscle Legend 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/Roblox-Script/main/Muscle%20Legend"))()
+end)
+--Muscle Legends
+local GameSection = Game:NewSection("Ninja Legend")
+GameSection:NewButton("Ninja Legend 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://www.obscurity.cf/Loader.lua"))()
+end)
+GameSection:NewButton("Ninja Legend 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+end)
+GameSection:NewButton("Ninja Legend 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
+GameSection:NewButton("Ninja Legend 4", "Credits To Owner", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+end)
+GameSection:NewButton("Ninja Legend 5", "idk", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
+--Build A Boat
+local GameSection = Game:NewSection("Build A Boat")
+GameSection:NewButton("Build The Boat 1", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/max2007killer/auto-build-not-limit/main/autobuild.txt"))()
+end)
+GameSection:NewButton("Build The Boat 2", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+end)
+GameSection:NewButton("Build The Boat 3", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/NooVster/v1.1/main/Source'))()
+end)
+GameSection:NewButton("Build The Boat 4", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
+end)
+GameSection:NewButton("Build The Boat 5", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+end)
+GameSection:NewButton("Build the boat 6", "ButtonInfo", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/NooVster/v1.1/main/Source'))()
+end)
+--Evade
+local GameSection = Game:NewSection("Evade")
+GameSection:NewButton("EVADE 1", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Evade"))()
+end)
+GameSection:NewButton("EVADE 2", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+end)
+GameSection:NewButton("EVADE 4", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Evade/main.lua"))()
+end)
+GameSection:NewButton("EVADE 5", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/TUPERX/TUPERX/Main/MenuBF/README.md'))()
+end)
+GameSection:NewButton("EVADE 6", "Credits to Owner", function()
+  loadstring(game:HttpGet(("https://raw.githubusercontent.com/Robobo2022/script/main/Main.lua"), true))()
+end)
+GameSection:NewButton("EVADE 7", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
+end)
+GameSection:NewButton("EVADE 8", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+end)
+GameSection:NewButton("Real-King Evade", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()
+end)
+--Murder Mystery 2
+local GameSection = Game:NewSection("Murder Mystery 2")
+GameSection:NewButton("MM2 1", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
+end)
+GameSection:NewButton("MM2 2", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2", true))()
+end)
+GameSection:NewButton("MM2 3", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+end)
+GameSection:NewButton("MM2 4", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/JunBloxYTPlayz/SORIX-Hub/main/Murder%20Mystery%202%20Version%20X"))()
+end)
+GameSection:NewButton("MM2 5", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/F2B-HUB/F2B/main/HUB"))()
+end)
+GameSection:NewButton("MM2 6", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/203DBjLx", true))()
+end)
+--Pet Simulator X
+local GameSection = Game:NewSection("Pet Simulator X")
+GameSection:NewButton("PSX 1", "Credits to Owner", function()
+  loadstring(game:HttpGetAsync("https://blacktrap.org/blacktrap/users/checkpoint/Auth.txt"))()
+end)
+GameSection:NewButton("PSX 2", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()
+end)
+GameSection:NewButton("PSX 3", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+end)
+GameSection:NewButton("PSX 4", "Credits to Owner", function()
+  _G.ExtremeHUBLoaded = true
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/All-Scripts-Obfuscated.lua'))()
+end)
+GameSection:NewButton("PSX 5", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://projectevo.xyz/v4/script.lua", true))()
+end)
+GameSection:NewButton("PSX 6", "Credits to Owner", function()
+  getgenv().AuthKey="HUGE_BVysELiKjpkVFU0U"
+getgenv().LoadSettings={
+  UseSeperateSaves=false,
+  DisableStartupPrompt=false,
+  DisableGamepassCheck=false,
+}
+loadstring(game:HttpGet("https://hugegames.io/psx"))()
+end)
+GameSection:NewButton("PSX 7", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2a31571481d9db7f3be01903493bfc9a.lua"))()
+end)
+GameSection:NewButton("PSX 8", "Credits to Owner", function()
+  getgenv().boothsnipe = false
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+end)
+GameSection:NewButton("PSX 9", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/psx.lua"))()
+end)
+GameSection:NewButton("PSX 10", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://paste.xyzo.space/rblxhub/all.lua"))()
+end)
+--Rainbow Friends
+local GameSection = Game:NewSection("Rainbow Friends(Chapter 2)")
+GameSection:NewButton("Rainbow Friends 1", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
+end)
+GameSection:NewButton("Rainbow Friends 2", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/FrightenedHub/main/Loader.lua", true))()
+end)
+GameSection:NewButton("Rainbow Friends 3", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Keparetiolpxe/rbxscript/main/RainbowFriendsKEPA"))()
+end)
+GameSection:NewButton("Rainbow Friends 4", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/yVhAwibN"))()
+end)
+GameSection:NewButton("Rainbow Friends 5", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0rainbow'))()
+end)
+GameSection:NewButton("Rainbow Friends 6", "Credits to Owner", function()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
+end)
+--Sonic
+local GameSection = Game:NewSection("Sonic speed simulator")
+GameSection:NewButton("Sonic Speed Simulator 1", "Credits To Owner", function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/tKNgdSR1"))()
+end)
+GameSection:NewButton("Sonic Speed Simulator 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Sonic%20Speed%20Simulator/main.lua", true))()
+end)
+GameSection:NewButton("Sonic Speed Simulator 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SkaysGG-2095"))()
+end)
+GameSection:NewButton("Sonic Speed Simulator 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Luciquad/credit/main/sonicspeedsimulator.lua"))()
+end)
+
+--The Strongest Battlegrounds
+local GameSection = Game:NewSection("The Strongest Battlegrounds")
+GameSection:NewButton("Strongest battlegrounds 1", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
+end)
+GameSection:NewButton("Strongest battlegrounds 2", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/battleground1/main/Saitama41"))()
+end)
+GameSection:NewButton("Strongest Battlegrounds 3", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/saitama"))()
+end)
+--Combat Warriors
+local GameSection = Game:NewSection("Combat Warriors")
+GameSection:NewButton("Combat Warrior1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiritXmas/Project-Hook/main/required.lua"))()
+end)
+GameSection:NewButton("Combat Warrior 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseOnGithub/cheese-hook/main/main%20hydra%20ui.lua",true))()
+end)
+GameSection:NewButton("Combat Warrior 3 ", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE"))()
+end)
+GameSection:NewButton("Combat Warrior 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))()
+end)
+GameSection:NewButton("Combat Warrior 5", "Credits To Owner", function()
+loadstring(game:HttpGet("https://www.itots.tk/zaphub/combat-warriors.lua", true))()
+end)
+
+--UnderGround War
+local GameSection = Game:NewSection("UnderGround War")
+GameSection:NewButton("UnderGround War 1", "Credits to Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/UniqueHub/main/UniqueHubv2Intro', true))()
+end)
+GameSection:NewButton("UnderGround War 2", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jj123llol/multi-hub/main/Multi",true))()
+end)
+GameSection:NewButton("UnderGround War 3 ", "Credits to Owner", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iuqYjEAX"))()
+end)
+GameSection:NewButton("UnderGround War 4", "Credits to Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/The%20UnderGround%20War%203'))()
+end)
+
+--Chaos
+local GameSection = Game:NewSection("Chaos")
+GameSection:NewButton("Chaos Gui 1", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Idkwhatudoin/TSS/main/TSSChaosScript", true))()
+end)
+GameSection:NewButton("Chaos Gui 2", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aidanlolol/MainScript/main/ChaosScriptVersionTwoPointOne.lua"))()
+end)
+GameSection:NewButton("Chaos Gui 3", "Credits to Owner", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/VzPbD7GW"))()
+end)
+GameSection:NewButton("Chaos Gui 4", "Credits to Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1111-ssss/Chaos_Script/main/Chaos_script.txt'))()
+end)
+--Pop It trading
+local GameSection = Game:NewSection("Pop It Trading")
+GameSection:NewButton("Pop It Trading 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/domdaobfuscater/09214a11b8a30bab47ceff281116195f/raw/40356a0ff4542a51283ab5de0a642233a6ceb6f9/gistfile1.txt"))()
+end)
+GameSection:NewButton("Pop It Trading 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Uhhh1230/Pop-It-Trading/main/E"))()
+end)
+GameSection:NewButton("Pop It Trading 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuasCoder/Rayfield/main/NewScript"))()
+end)
+GameSection:NewButton("Pop It Trading 4", "Credits To Owner", function()
+loadstring(game:HttpGet(("https://thekillerhood.xyz/cracked/CRACKEDBYKILLERHOOD"),true))()
+end)
+GameSection:NewButton("Pop It Trading 5", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Secrethumanbepro/Secrethumanbepro/main/Pov",true))()
+end)
+GameSection:NewButton("Pop It Trading 6", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Secrethumanbepro/Secrethumanbepro/main/Pov%20v2"))()
+end)
+GameSection:NewButton("Pop it Trading 7", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Secrethumanbepro/Secrethumanbepro/main/Pov",true))()
+end)
+--Nico Nextbot
+local GameSection = Game:NewSection("Nico NextBot")
+GameSection:NewButton("Nico NextBot 1", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackingProject/HPHub/main/HPHub.lua"))()
+end)
+GameSection:NewButton("Nico NextBot 2", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dropouut/Shindai/main/wercT.lua"))()
+end)
+GameSection:NewButton("Nico NextBot 3", "Credits to Owner", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/DFfKb4i9"))()
+end)
+GameSection:NewButton("Nico NextBot 4", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
+end)
+GameSection:NewButton("Nico NextBot 5", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/NicoNextBots", true))()
+end)
+--Tower Of Hell
+local GameSection = Game:NewSection("Tower Of Hell")
+GameSection:NewButton("Tower Of Hell 1", "Credits to Owner", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/BloxiYT/85f97364b6367baac677e109488c9905/raw/c2972a2b892c4193509ddb2fe1ba3061435e1a8a/gistfile1.txt"))()
+end)
+GameSection:NewButton("Tower Of Hell 2", "Credits to Owner", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+end)
+GameSection:NewButton("Tower Of Hell 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+end)
+GameSection:NewButton("Tower Of Hell 4", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
+end)
+GameSection:NewButton("Tower Of Hell 5", "Credits To Owner", function()
+   loadstring(game:HttpGet("https://raw.g 5ithubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+end)
+GameSection:NewButton("Tower Of Hell 6", "Credits To Owner", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/TowerOfHell/main/README.md"))()
+end)
+GameSection:NewButton("Tower Of Hell 7", "Credits To Owner", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/iiProductionz/Floater-Scripts/main/WaifuEdition/Tower%20Of%20Hell"))()
+end)
+GameSection:NewButton("Tower Of Hell Admin", "Credits To Owner", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
+end)
+--Slap Battles
+local GameSection = Game:NewSection("Slap Battles")
+GameSection:NewButton("Slap Battle 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/scripts/slap_battles.lua"))()
+end)
+GameSection:NewButton("Slap Battle  2", "Credits To Owner", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/cheesynob39/R20-EXPLOITER/main/Slap_Battles.lua")))()
+end)
+GameSection:NewButton("Slap Battle  3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
+end)
+--Legend Of Speed
+local GameSection = Game:NewSection("Legend Of Speed")
+GameSection:NewButton("Legend Of Speed 1", "Credits to Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Legenos%20of%20speedos'))()
+end)
+GameSection:NewButton("Legend Of Speed 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KrangH/ScriptsHub/main/Legends_Of_Speedv2"))()
+end)
+GameSection:NewButton("Legend Of Speed 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KidScripts/Scripts/main/Silver-Hub-Keyless.lua",true))()
+end)
+GameSection:NewButton("Legend Of Speed 4", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/.lua'))()
+end)
+GameSection:NewButton("Legend Of Speed 5", "Credits To Owner", function()
+loadstring(Game:HttpGet("https://pastebin.com/raw/z3QF6pUX"))()
+end)
+--Flee The Facility
+local GameSection = Game:NewSection("Flee The Facility")
+GameSection:NewButton("Flee The Facility 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/main/Loader", true))()
+end)
+GameSection:NewButton("Flee The Facility 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/flee-the-facility.lua"))()
+end)
+GameSection:NewButton("Flee The Facility 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bedra45/Random-games-xd/main/bedraFtfFinalGUI"))()
+end)
+GameSection:NewButton("Flee The Facility 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifty96/ftfgui/main/ftfgui", true))()
+end)
+--Arsenal
+local GameSection = Game:NewSection("Arsenal")
+GameSection:NewButton("Arsenal 1", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/UltimateCromaSin-Arsenal-Gui/main/AdvanceTechV3.lua"))()
+end)
+GameSection:NewButton("Arsenal 2", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+GameSection:NewButton("Arsenal 3", "Creditd to Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+GameSection:NewButton("Arsenal 4", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/plutoguy/Tiger-Hub/main/loader.lua"))();
+end)
+GameSection:NewButton("Arsenal 5", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+GameSection:NewButton("Arsenal 6", "Credits to Owner", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+end)
+GameSection:NewButton("Arsenal 7", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/F2B-HUB/F2B/main/HUB"))()
+end)
+GameSection:NewButton("Arsenal 8", "Credifs to Owner", function()
+loadstring(game:HttpGet("https://gangofgang.gog-best.repl.co/aimhook/hook.lua"))()
+end)
+GameSection:NewButton("Arsenal 9", "Credits To Owner", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/xq7q0XPq"))()
+end)
+GameSection:NewButton("Arsenal 10", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/UltimateCromaSin-Arsenal-Gui/main/Arsenal"))()
+end)
+--Michael Zombie
+local GameSection = Game:NewSection("Michael Zombie")
+GameSection:NewButton("Michael Zombie 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/MichaelZombies.lua"))()
+end)
+GameSection:NewButton("Michael Zombie 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Michael's%20Zombies/MichaelsZombiesGUI"))()
+end)
+--Bee Swarm Simulator
+local GameSection = Game:NewSection("Bee Swarm Simulator")
+GameSection:NewButton("Bee swarm 1", "Credits To Owner", function()
+-- https://discord.gg/bss
+loadstring(game:HttpGet("https://www.macrov2-script.xyz/macrov2.lua"))()
+end)
+GameSection:NewButton("Bee swarm 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+end)
+GameSection:NewButton("Bee Swarm 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
+end)
+--Piggy
+local GameSection = Game:NewSection("Piggy")
+GameSection:NewButton("Piggy 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0piggy2", true))()
+end)
+GameSection:NewButton("Piggy 2", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tip52/useless-projects/main/piggy%20rb%20battles%20bit'))()
+end)
+GameSection:NewButton("Piggy 3", "Credits To Owner", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/pLNRr7jn'))()
+end)
+GameSection:NewButton("Piggy 4", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tip52/useless-projects/main/piggy%20rb%20battles%20bit'))()
+end)
+GameSection:NewButton("Piggy 5", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Piggy"))()
+end)
+--Frontline
+local GameSection = Gams:NewSection("Frontline")
+Section:NewButton("Frontline 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SomacYT/better-script-frontline/main/Frontline%20somac%20hub%20v2"))()
+end)
+Section:NewButton("Frontline 2 (Esp)", "Credits To Owner", function()
+_G.ESP = {
+    Boxes = true,
+    Tracers = true,
+    Rainbow = true,
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mopsfl/roblox-scripts/main/.frontlines-esp.lua"))()
+end)
+Section:NewButton("Frontline 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Frontlines/Modded_Aimhot.lua", true))()
+end)
+--Da Hood
+local GameSection = Game:NewSection("Da Hood")
+GameSection:NewButton("Da Hood 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+GameSection:NewButton("Da Hood 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub"))()
+end)
+GameSection:NewButton("Da Hood 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Au-code/Da-Hood-Doctor/main/ActualScript"))()
+end)
+GameSection:NewButton("Da Hood 4", "Credits To Owner", function()
+local rs = game:GetService("RunService")
+local Players = game:GetService("Players")
+if not Players.LocalPlayer then
+  Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+end
+local lp = Players.LocalPlayer
+local connections = {}
+
+local function getchar()
+  return lp.Character or lp.CharacterAdded:Wait()
+end
+
+local MainEvent = game:GetService('ReplicatedStorage'):WaitForChild("MainEvent")
+
+local state = false
+local function initchar(char)
+  local KO = char:WaitForChild("BodyEffects"):WaitForChild("KO")
+  local Humanoid = char:WaitForChild("Humanoid")
+
+  connections[Humanoid] = Humanoid:GetPropertyChangedSignal("Health"):Connect(function()
+     if KO.Value and Humanoid.Health >= 2 then
+        if state then
+           repeat task.wait() until not state
+           if not KO.Value then return end
+        end
+        state = true
+        local oldpos = getchar():WaitForChild("HumanoidRootPart").CFrame
+        repeat
+           if char then
+              getchar():WaitForChild("HumanoidRootPart").CFrame = CFrame.new(char:WaitForChild("Head").CFrame.Position) * CFrame.new(0,3,0)
+           end
+           rs.Heartbeat:Wait()
+           MainEvent:FireServer('Stomp')
+        until not (Humanoid or Humanoid.Parent or KO.Value) or Humanoid.Health <= 2
+        getchar():WaitForChild("HumanoidRootPart").CFrame = oldpos
+        state = false
+     end
+  end)
+end
+
+local function initplayer(plr)
+  if not connections[plr] then
+     connections[plr] = plr.CharacterAdded:Connect(initchar)
+  end
+  local plrchar = plr.Character
+  if plrchar then
+     initchar(plrchar)
+  end
+end
+
+connections["PlayerAdded"] = Players.PlayerAdded:Connect(initplayer)
+connections["PlayerRemoving"] = Players.PlayerRemoving:Connect(function(plr)
+  if connections[plr] then
+     connections[plr]:Disconnect()
+     connections[plr] = nil
+  end
+end)
+
+for i,v in next, Players:GetPlayers() do
+  if v ~= lp then
+     initplayer(v)
+  end
+end
+
+getgenv().toggle = function()
+  for i,v in next, connections do
+     v:Disconnect()
+     print("Disconnecting",i,v)
+  end
+  getgenv().toggle = nil
+end
+end)
+GameSection:NewButton("Da Hood 5", "Credits To Owner", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/ZCiS8jSd'))()
+end)
+GameSection:NewButton("Da Hood 6", "Credits To Owner", function()
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/.../main/....."),true))()
+end)
+GameSection:NewButton("Da Hood 7", "Credits To Owner", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
+end)
+GameSection:NewButton("Da Hood 8", "Credits To Owner", function()
+   loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\71\97\109\101\114\69\109\105\108\105\97\110\111\70\70\47\116\114\105\112\95\47\109\97\105\110\47\72\117\98\10",true))()
+end)
+GameSection:NewButton("Da Hood 9", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
+end)
+GameSection:NewButton("Da Hood 10 (Godmode)", "Credits To Owner", function()
+p = game.Players.LocalPlayer
+ch = p.Character
+
+ch.BodyEffects.Dead:Destroy()
+end)
+GameSection:NewButton("Da Hood 11 (Silent Aim)", "Credits To Owner", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
+end)
+GameSection:NewButton("Da Hood 12", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+GameSection:NewButton("Da Hood 13", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/UntitledhoodGui"))()
+end)
+--King Legacy
+local GameSection = Game:NewSection("King Legacy")
+GameSection:NewButton("King Legacy 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
+GameSection:NewButton("King Legacy 2", "Credits To Owner", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/KingLegacy.lua")()
+end)
+GamsSection:NewButton("King Legacy 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.lua"))()
+end)
+GameSection:NewButton("King Legacy 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bearhub1/DolceHub/main/King-Legacy"))()
+end)
+GameSection:NewButton("King Legacy 5", "Credits To Owner", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+--Anime Figther
+local GameSection = Game:NewSection("Anime Fighter")
+GameSection:NewButton("AnimeFighter 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/M4tr1x01/luascripts/main/solohub.lua"))()
+end)
+GameSection:NewButton("AnimeFighter 2", "Credits To Owner", function()
+loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))();
+end)
+GameSection:NewButton("AnimeFighter 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
+end)
+GameSection:NewButton("AnimeFighter 4", "Credits To Owner", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/AFS/main/script.lua"))()
+end)
+GameSection:NewButton("AnimeFighter 5", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+GameSection:NewButton("AnimeFighter 6", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+end)
+GameSection:NewButton("AnimeFighter 7", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nivyd/ShrawuRepost/main/Shrawu.lua", true))()
+end)
+--Survive The Killer
+local GameSection = Game:NewSection("Survival The Killer")
+GameSection:NewButton("Survival The Killer 1", " Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kiroftt/Survive-The-Killer/main/Simple'))();
+end)
+GameSection:NewButton("Survival The Killer 2", " Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FOXTROXHACKS/ElToro/main/Hub.lua"))()
+end)
+--Natural Disaster
+local GameSection = Game:NewSection("Natural Disaster")
+GameSection:NewButton("Natural Disaster 1", "Credits To Owner", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
+end)
+GameSection:NewButton("Natural Disaster 2", "Credits To Owner", function()
+loadstring(game:HttpGet('https://onemorehub.weinzspace.com/'))()
+end)
+GameSection:NewButton("Natural Disaster 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/Loader/main/Loader.lua"))()
+end)
+GameSection:NewButton("Natural Disaster 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+end)
+GameSection:NewButton("Natural Disaster 5", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/main'))()
+--Made By 1kWoof#0143
+end)
+GameSection:NewButton("Natural Disaster 6", "Credits To Owner", function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\105\100\50\88\104\119\81\68\39\41\41\40\41\10")()
+end)
+GameSection:NewButton("Natural Disaster 7", "Credits To Owner", function()
+loadstring("\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\83\116\97\114\116\101\114\71\117\105\34\41\58\83\101\116\67\111\114\101\40\34\83\101\110\100\78\111\116\105\102\105\99\97\116\105\111\110\34\44\123\10\84\105\116\108\101\32\61\32\34\73\109\32\80\97\116\114\105\99\107\34\44\10\84\101\120\116\32\61\32\34\76\111\97\100\105\110\103\46\46\34\44\32\10\32\10\32\10\66\117\116\116\111\110\49\32\61\32\34\79\107\34\44\10\68\117\114\97\116\105\111\110\32\61\32\51\48\32\10\125\41\10\119\97\105\116\40\50\41\10\10\108\111\99\97\108\32\76\105\98\114\97\114\121\32\61\32\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\118\102\102\49\98\81\57\70\34\41\41\40\41\10\10\108\111\99\97\108\32\87\105\110\100\111\119\32\61\32\76\105\98\114\97\114\121\46\67\114\101\97\116\101\76\105\98\40\34\78\97\116\117\114\97\108\32\68\105\115\97\115\116\101\114\32\71\117\105\34\44\32\34\79\99\101\97\110\34\41\10\10\108\111\99\97\108\32\84\97\98\49\32\61\32\87\105\110\100\111\119\58\78\101\119\84\97\98\40\34\83\99\114\105\112\116\34\41\10\108\111\99\97\108\32\84\97\98\49\83\101\99\116\105\111\110\32\61\32\84\97\98\49\58\78\101\119\83\101\99\116\105\111\110\40\34\83\99\114\105\112\116\34\41\10\10\108\111\99\97\108\32\84\97\98\50\32\61\32\87\105\110\100\111\119\58\78\101\119\84\97\98\40\34\84\101\108\101\112\111\114\116\34\41\10\108\111\99\97\108\32\84\97\98\50\83\101\99\116\105\111\110\32\61\32\84\97\98\50\58\78\101\119\83\101\99\116\105\111\110\40\34\84\101\108\101\112\111\114\116\34\41\10\10\108\111\99\97\108\32\84\97\98\51\32\61\32\87\105\110\100\111\119\58\78\101\119\84\97\98\40\34\66\121\112\97\115\115\34\41\10\108\111\99\97\108\32\84\97\98\51\83\101\99\116\105\111\110\32\61\32\84\97\98\51\58\78\101\119\83\101\99\116\105\111\110\40\34\66\121\112\97\115\115\34\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\71\101\116\32\66\97\108\108\111\110\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\105\102\32\103\97\109\101\46\87\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\71\114\101\101\110\66\97\108\108\111\111\110\34\44\32\116\114\117\101\41\32\116\104\101\110\32\45\45\32\67\104\101\99\107\32\102\111\114\32\115\116\101\97\108\97\98\108\101\32\71\114\101\101\110\66\97\108\108\111\111\110\32\10\9\98\97\108\108\111\111\110\67\108\111\110\101\32\61\32\103\97\109\101\46\87\111\114\107\115\112\97\99\101\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\71\114\101\101\110\66\97\108\108\111\111\110\34\44\32\116\114\117\101\41\58\67\108\111\110\101\40\41\32\45\45\32\99\108\111\110\101\32\105\116\32\10\9\98\97\108\108\111\111\110\67\108\111\110\101\46\80\97\114\101\110\116\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\46\66\97\99\107\112\97\99\107\10\101\110\100\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\83\112\111\111\107\121\115\99\97\114\121\115\107\101\108\101\116\111\110\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\108\111\99\97\108\32\115\111\110\103\32\61\32\34\83\79\78\71\32\78\65\77\69\34\10\10\114\101\113\117\101\115\116\32\61\32\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\108\121\114\105\99\115\46\102\108\99\46\98\97\114\47\115\101\97\114\99\104\63\115\111\110\103\61\115\112\111\111\107\121\115\112\111\111\107\121\115\107\101\108\101\116\111\110\34\41\10\10\100\101\99\111\100\101\100\32\61\32\103\97\109\101\46\72\116\116\112\83\101\114\118\105\99\101\58\74\83\79\78\68\101\99\111\100\101\40\114\101\113\117\101\115\116\41\10\10\108\111\99\97\108\32\108\121\114\105\99\115\32\61\32\123\125\10\102\111\114\32\105\32\105\110\32\100\101\99\111\100\101\100\46\108\121\114\105\99\115\58\103\109\97\116\99\104\40\34\91\94\92\114\92\110\93\43\34\41\32\100\111\10\32\32\32\116\97\98\108\101\46\105\110\115\101\114\116\40\108\121\114\105\99\115\44\32\105\41\10\101\110\100\10\10\102\111\114\32\105\44\32\118\32\105\110\32\112\97\105\114\115\40\108\121\114\105\99\115\41\32\100\111\10\32\32\32\119\97\105\116\40\51\41\10\32\32\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101\34\41\46\68\101\102\97\117\108\116\67\104\97\116\83\121\115\116\101\109\67\104\97\116\69\118\101\110\116\115\46\83\97\121\77\101\115\115\97\103\101\82\101\113\117\101\115\116\58\70\105\114\101\83\101\114\118\101\114\40\118\44\32\34\65\108\108\34\41\10\101\110\100\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\82\97\105\110\98\111\119\32\40\110\111\116\32\70\101\41\32\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\9\119\104\105\108\101\32\116\114\117\101\32\100\111\10\32\10\9\9\103\97\109\101\46\76\105\103\104\116\105\110\103\46\65\109\98\105\101\110\116\32\61\32\67\111\108\111\114\51\46\110\101\119\40\109\97\116\104\46\114\97\110\100\111\109\40\41\44\32\109\97\116\104\46\114\97\110\100\111\109\40\41\44\32\109\97\116\104\46\114\97\110\100\111\109\40\41\41\10\9\9\119\97\105\116\40\46\50\53\41\10\32\10\9\101\110\100\10\101\110\100\41\10\10\84\97\98\50\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\83\112\97\119\110\34\44\32\34\73\109\32\80\97\116\114\105\99\107\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\61\32\67\70\114\97\109\101\46\110\101\119\40\49\48\54\44\32\52\54\44\32\51\41\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\82\101\109\111\118\101\32\70\97\108\108\32\100\97\109\97\103\101\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\70\97\108\108\68\97\109\97\103\101\83\99\114\105\112\116\58\68\101\115\116\114\111\121\40\41\10\101\110\100\41\10\10\84\97\98\50\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\76\111\98\98\121\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\61\32\67\70\114\97\109\101\46\110\101\119\40\45\50\57\48\44\32\49\55\56\44\32\51\55\57\41\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\82\101\109\111\118\101\32\77\97\112\115\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\87\111\114\107\115\112\97\99\101\46\83\116\114\117\99\116\117\114\101\58\68\101\115\116\114\111\121\40\41\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\82\101\109\111\118\101\32\83\99\114\101\101\110\32\69\102\102\101\99\116\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\87\111\114\107\115\112\97\99\101\46\87\101\97\116\104\101\114\77\97\99\104\105\110\101\58\68\101\115\116\114\111\121\40\41\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\84\112\116\111\111\108\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\109\111\117\115\101\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\58\71\101\116\77\111\117\115\101\40\41\10\116\111\111\108\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\84\111\111\108\34\41\10\116\111\111\108\46\82\101\113\117\105\114\101\115\72\97\110\100\108\101\32\61\32\102\97\108\115\101\10\116\111\111\108\46\78\97\109\101\32\61\32\34\84\80\32\84\79\79\76\34\10\116\111\111\108\46\65\99\116\105\118\97\116\101\100\58\99\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\10\108\111\99\97\108\32\112\111\115\32\61\32\109\111\117\115\101\46\72\105\116\43\86\101\99\116\111\114\51\46\110\101\119\40\48\44\50\46\53\44\48\41\10\112\111\115\32\61\32\67\70\114\97\109\101\46\110\101\119\40\112\111\115\46\88\44\112\111\115\46\89\44\112\111\115\46\90\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\61\32\112\111\115\10\101\110\100\41\10\116\111\111\108\46\80\97\114\101\110\116\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\66\97\99\107\112\97\99\107\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\87\97\108\107\83\112\101\101\100\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\61\32\53\48\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\74\117\109\112\112\111\119\101\114\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\46\74\117\109\112\80\111\119\101\114\32\61\32\49\53\48\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\84\101\120\116\66\111\120\40\34\67\117\115\116\111\109\32\87\115\112\101\101\100\34\44\32\34\78\117\109\98\101\114\34\44\32\102\117\110\99\116\105\111\110\40\116\120\116\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\61\32\116\120\116\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\84\101\120\116\66\111\120\40\34\67\117\115\116\111\109\32\72\106\117\109\112\34\44\32\34\78\117\109\98\101\114\34\44\32\102\117\110\99\116\105\111\110\40\116\120\116\41\10\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\46\74\117\109\112\80\111\119\101\114\32\61\32\116\120\116\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\73\110\102\32\106\117\109\112\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\98\67\57\55\101\65\121\82\34\44\32\116\114\117\101\41\41\40\41\10\101\110\100\41\10\10\84\97\98\51\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\82\101\109\111\118\101\32\70\111\103\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\9\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\46\70\111\103\69\110\100\32\61\32\49\48\48\48\48\48\10\9\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\76\105\103\104\116\105\110\103\34\41\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\41\32\100\111\10\9\9\105\102\32\118\58\73\115\65\40\34\65\116\109\111\115\112\104\101\114\101\34\41\32\116\104\101\110\10\9\9\9\118\58\68\101\115\116\114\111\121\40\41\10\9\9\101\110\100\10\9\101\110\100\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\70\108\121\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\45\45\65\82\67\69\85\83\32\88\32\70\76\89\32\86\50\32\83\67\82\73\80\84\32\66\89\32\109\101\95\111\122\111\110\101\89\84\10\108\111\97\100\115\116\114\105\110\103\40\34\92\49\48\56\92\49\49\49\92\57\55\92\49\48\48\92\49\49\53\92\49\49\54\92\49\49\52\92\49\48\53\92\49\49\48\92\49\48\51\92\52\48\92\49\48\51\92\57\55\92\49\48\57\92\49\48\49\92\53\56\92\55\50\92\49\49\54\92\49\49\54\92\49\49\50\92\55\49\92\49\48\49\92\49\49\54\92\52\48\92\52\48\92\51\57\92\49\48\52\92\49\49\54\92\49\49\54\92\49\49\50\92\49\49\53\92\53\56\92\52\55\92\52\55\92\49\48\51\92\49\48\53\92\49\49\53\92\49\49\54\92\52\54\92\49\48\51\92\49\48\53\92\49\49\54\92\49\48\52\92\49\49\55\92\57\56\92\49\49\55\92\49\49\53\92\49\48\49\92\49\49\52\92\57\57\92\49\49\49\92\49\49\48\92\49\49\54\92\49\48\49\92\49\49\48\92\49\49\54\92\52\54\92\57\57\92\49\49\49\92\49\48\57\92\52\55\92\49\48\57\92\49\48\49\92\49\49\49\92\49\50\50\92\49\49\49\92\49\49\48\92\49\48\49\92\56\57\92\56\52\92\52\55\92\57\56\92\49\48\50\92\52\56\92\53\49\92\53\53\92\49\48\48\92\49\48\50\92\49\48\50\92\53\55\92\49\48\50\92\52\56\92\57\55\92\53\53\92\52\56\92\52\56\92\52\57\92\53\53\92\53\49\92\52\56\92\53\50\92\49\48\48\92\49\48\48\92\49\48\48\92\53\52\92\53\53\92\49\48\50\92\49\48\48\92\57\57\92\49\48\48\92\53\49\92\53\53\92\52\56\92\52\55\92\49\49\52\92\57\55\92\49\49\57\92\52\55\92\49\48\49\92\52\57\92\53\50\92\49\48\49\92\53\53\92\53\50\92\49\48\50\92\53\50\92\53\48\92\53\51\92\57\56\92\52\56\92\53\52\92\52\56\92\49\48\48\92\49\48\50\92\53\51\92\53\48\92\53\49\92\53\49\92\53\50\92\53\49\92\57\57\92\49\48\50\92\53\49\92\52\56\92\57\56\92\53\53\92\53\54\92\53\53\92\52\56\92\53\53\92\53\50\92\49\48\49\92\57\56\92\53\49\92\57\57\92\53\51\92\49\48\48\92\53\48\92\52\55\92\57\55\92\49\49\52\92\57\57\92\49\48\49\92\49\49\55\92\49\49\53\92\51\55\92\53\48\92\53\51\92\53\48\92\52\56\92\49\50\48\92\51\55\92\53\48\92\53\51\92\53\48\92\52\56\92\49\48\50\92\49\48\56\92\49\50\49\92\51\55\92\53\48\92\53\51\92\53\48\92\52\56\92\53\48\92\51\55\92\53\48\92\53\51\92\53\48\92\52\56\92\49\49\49\92\57\56\92\49\48\50\92\49\48\56\92\49\49\55\92\57\57\92\57\55\92\49\49\54\92\49\49\49\92\49\49\52\92\51\57\92\52\49\92\52\52\92\49\49\54\92\49\49\52\92\49\49\55\92\49\48\49\92\52\49\92\52\49\92\52\48\92\52\49\92\49\48\92\49\48\34\41\40\41\10\101\110\100\41\10\10\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\83\111\117\110\100\34\44\32\34\63\34\44\32\102\117\110\99\116\105\111\110\40\41\10\108\111\99\97\108\32\100\117\114\97\116\105\111\110\32\61\32\56\32\45\45\32\105\110\116\101\103\101\114\32\111\110\108\121\44\32\110\111\32\100\101\99\105\109\97\108\115\10\10\10\10\105\102\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\83\111\117\110\100\83\101\114\118\105\99\101\34\41\46\82\101\115\112\101\99\116\70\105\108\116\101\114\105\110\103\69\110\97\98\108\101\100\32\116\104\101\110\32\114\101\116\117\114\110\32\101\110\100\10\10\108\111\99\97\108\32\115\111\117\110\100\115\32\61\32\123\125\10\10\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\119\111\114\107\115\112\97\99\101\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\41\32\100\111\10\32\32\32\32\105\102\32\118\58\73\115\65\40\34\83\111\117\110\100\34\41\32\97\110\100\32\118\46\80\97\114\101\110\116\46\78\97\109\101\32\126\61\32\34\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\34\32\116\104\101\110\10\32\32\32\32\32\32\32\32\116\97\98\108\101\46\105\110\115\101\114\116\40\115\111\117\110\100\115\44\118\41\10\32\32\32\32\101\110\100\10\101\110\100\10\10\10\108\111\99\97\108\32\99\111\110\32\61\32\119\111\114\107\115\112\97\99\101\46\68\101\115\99\101\110\100\97\110\116\65\100\100\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\118\41\10\32\32\32\32\105\102\32\118\58\73\115\65\40\34\83\111\117\110\100\34\41\32\97\110\100\32\118\46\80\97\114\101\110\116\46\78\97\109\101\32\126\61\32\34\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\34\32\116\104\101\110\10\32\32\32\32\32\32\32\32\116\97\98\108\101\46\105\110\115\101\114\116\40\115\111\117\110\100\115\44\118\41\10\32\32\32\32\101\110\100\10\101\110\100\41\10\119\97\105\116\40\46\49\41\10\108\111\99\97\108\32\115\116\97\114\116\32\61\32\109\97\116\104\46\102\108\111\111\114\40\116\105\99\107\40\41\41\10\114\101\112\101\97\116\10\32\32\32\32\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\115\111\117\110\100\115\41\32\100\111\10\32\32\32\32\32\32\32\32\118\58\80\108\97\121\40\41\10\32\32\32\32\32\32\32\32\118\46\84\105\109\101\80\111\115\105\116\105\111\110\32\61\32\109\97\116\104\46\114\97\110\100\111\109\40\48\44\118\46\84\105\109\101\76\101\110\103\116\104\32\42\32\49\48\48\48\41\47\49\48\48\48\10\32\32\32\32\32\32\32\32\116\97\115\107\46\119\97\105\116\40\41\10\32\32\32\32\101\110\100\10\117\110\116\105\108\32\109\97\116\104\46\102\108\111\111\114\40\116\105\99\107\40\41\41\32\61\61\32\115\116\97\114\116\32\43\32\100\117\114\97\116\105\111\110\10\99\111\110\58\68\105\115\99\111\110\110\101\99\116\40\41\10\10\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\115\111\117\110\100\115\41\32\100\111\10\32\32\32\32\118\58\83\116\111\112\40\41\10\101\110\100\10\101\110\100\41\32\10")()
+end)
+GameSection:NewButton("Natural Disaster 8", "Credits To Owner", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/7c75386107937fa006304efd24543ad4/raw/8d759dfcd95d39949c692735cfdf62baec0bf835/cafwetweg", true))()
+end)
+--Prison Life
+local GameSection = Game:NewSection("Prison Life")
+GameSection:NewButton("Prison Life 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Wa3uidQr"))()
+end)
+GamsSection:NewButton("Prison Life 2", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
+end)
+GameSection:NewButton("Prison Life 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+end)
+GameSection:NewButton("Prison Life 4 (Admin)", "Credits To Owner", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+GameSection:NewButton("Prison Life 5 (Prison Breaker)", "Credits To Owner", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/QcNge4QY'),true))()
+end)
+GameSection:NewButton("Prison Life 6 (Admin)",  "Credits To Owner", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/wMagw9Cn", true))()
+end)
+GameSection:NewButton("Prison Life 7 (Admin)", "Credits To Owner", function()
+loadstring(game:HttpGet('https://pastebinp.com/raw/dt7JbaH5'))()
+end)
+GameSection:NewButton("Prison Life 8", "Credits To Owner", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/dJ6tcE7h", true))()
+end)
+--Rebirth Champion X
+local GameSection = Game:NewSection("Rebirth Champion X")
+GameSection:NewButton("Rebirth Champion X 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Platinium/main/Loader"))()
+end)
+GameSection:NewButton("Rebirth Champion X 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AliCode14/scripts/main/ScriptHub.lua"))()
+end)
+GameSection:NewButton("Rebirth Champion X 3", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kyleeeeeeeeeeeeee/scripts/main/loadstring'))()
+end)
+GameSection:NewButton("Rebirth Champion X 4", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DanielDuesenDieb/voidhub/main/loader.lua'))()
+end)
+GameSection:NewButton("Rebirth Champion X 5", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0rebirth3", true))()
+end)
+GameSection:NewButton("Rebirth Champion X 6", "Credits To Owner", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main',true))()
+end)
+GameSection:NewButton("Rebirth Champion X 7", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/rebirthchampx',true))()
+end)
+GameSection:NewButton("Rebirth Champion X 8", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KrystekYTpv/Scripts/main/RebirthChampionsX.lua", true))()
+end)
+GameSection:NewButton("Rebirth Champion X 9", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Relyz1337/SCRIPTS/main/Rebirth%20Champions%20X',true))()
+end)
+--KAT
+local GameSection = Game:NewSection("KAT")
+GameSection:NewButton("Kat 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Kat12/main/Kat"))()
+end)
+GameSection:NewButton("Kat 2", "Credits To Owner", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+GameSection:NewButton("Kat 3","Credits To Owner",function()
+if game.PlaceId == 621129760 then
+loadstring(game:HttpGet("https://pastebin.com/raw/78kG7trR", true))()
+ 
+-- Gui to Lua
+-- Version: 3.2
+ 
+-- Instances:
+ 
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+ 
+--Properties:
+ 
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.300
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Frame.BorderSizePixel = 5
+Frame.Position = UDim2.new(0, 0, 0.5, -62)
+Frame.Size = UDim2.new(0, 702, 0, 124)
+Frame.Active = true
+ 
+ 
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 3.000
+TextLabel.Size = UDim2.new(0, 702, 0, 124)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "This GUI is not the best with Every exploit. It's mainly for paid exploits, such as Script ware and Synapse, If you dont have a paid exploit, then I Suggest You Use Krnl Or Fluxus, Press L To Toggle The UI. I recommend having at least laser when using silent aim with a knife, incase you dont have try out spam knife!"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+ 
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 3.000
+TextButton.Position = UDim2.new(0.928774953, 0, 0.669354856, 0)
+TextButton.Size = UDim2.new(0, 42, 0, 41)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Close"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 50.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:connect(function()
+	Frame.Visible = false
+end)
+end
+end)
+GameSection:NewButton("Kat 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/KAT", true))()
+end)
+GameSection:NewButton("Kat 5", "Credits To Owner", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/TDBuxW7W'))()
+end)
+GameSection:NewButton("Kat 6 (Kill All)", "Credits To Owner", function()
+loadstring("\108\111\99\97\108\32\76\80\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\10\119\104\105\108\101\32\119\97\105\116\40\48\46\49\41\32\100\111\10\102\111\114\32\105\44\118\32\105\110\32\112\97\105\114\115\40\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\58\71\101\116\80\108\97\121\101\114\115\40\41\41\32\100\111\10\105\102\32\118\32\97\110\100\32\118\46\67\104\97\114\97\99\116\101\114\32\97\110\100\32\118\32\126\61\32\76\80\32\97\110\100\32\118\46\67\104\97\114\97\99\116\101\114\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\72\101\97\100\34\41\32\116\104\101\110\10\108\111\99\97\108\32\104\114\112\32\61\32\118\46\67\104\97\114\97\99\116\101\114\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\72\101\97\100\34\41\32\10\104\114\112\58\66\114\101\97\107\74\111\105\110\116\115\40\41\10\104\114\112\46\84\114\97\110\115\112\97\114\101\110\99\121\32\61\32\48\10\104\114\112\46\66\114\105\99\107\67\111\108\111\114\32\61\32\118\46\84\101\97\109\67\111\108\111\114\10\104\114\112\46\65\110\99\104\111\114\101\100\32\61\32\116\114\117\101\10\104\114\112\46\67\97\110\67\111\108\108\105\100\101\32\61\32\102\97\108\115\101\10\112\99\97\108\108\40\102\117\110\99\116\105\111\110\40\41\10\104\114\112\46\67\70\114\97\109\101\32\61\32\76\80\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\42\32\67\70\114\97\109\101\46\110\101\119\40\49\44\48\44\45\51\46\53\41\10\101\110\100\41\10\101\110\100\10\101\110\100\10\101\110\100\10")()
+end)
+GameSection:NewButton("Kat 7 (Silent Aim)", "Credits To Owner", function()
+   local Camera = game:GetService("Workspace").CurrentCamera
+local Players = game:GetService("Players")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+
+local function GetClosestPlayer()
+   local ClosestPlayer = nil
+   local FarthestDistance = math.huge
+
+   for i, v in pairs(Players.GetPlayers(Players)) do
+       if v ~= LocalPlayer and v.Character and v.Character.FindFirstChild(v.Character, "HumanoidRootPart") then
+           local DistanceFromPlayer = (LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude
+
+           if DistanceFromPlayer < FarthestDistance then
+               FarthestDistance = DistanceFromPlayer
+               ClosestPlayer = v
+           end
+       end
+   end
+
+   if ClosestPlayer then
+       return ClosestPlayer
+   end
+end
+
+local GameMetaTable = getrawmetatable(game)
+local OldGameMetaTableNamecall = GameMetaTable.__namecall
+setreadonly(GameMetaTable, false)
+
+GameMetaTable.__namecall = newcclosure(function(object, ...)
+   local NamecallMethod = getnamecallmethod()
+   local Arguments = {...}
+
+   if tostring(NamecallMethod) == "FindPartOnRayWithIgnoreList" then
+       local ClosestPlayer = GetClosestPlayer()
+       
+       if ClosestPlayer and ClosestPlayer.Character then
+           Arguments[1] = Ray.new(Camera.CFrame.Position, (ClosestPlayer.Character.Head.Position - Camera.CFrame.Position).Unit * (Camera.CFrame.Position - ClosestPlayer.Character.Head.Position).Magnitude)
+       end
+   end
+
+   return OldGameMetaTableNamecall(object, unpack(Arguments))
+end)
+
+setreadonly(GameMetaTable, true)
+end)
+
+
+GameSection:NewButton("Kat 8", "Credits To Owner", function()
+   game.StarterGui:SetCore("SendNotification", {
+    Title = "Enjoy";
+    Text = "Made by JN HH Gaming"; -- what the text says (ofc)
+    Duration = 60;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Subscribe To Him";
+    Text = "Now!"; -- what the text says (ofc)
+    Duration = 60;
+})
+
+-- Gui to Lua
+-- Version: 3.
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(39, 15, 245)
+Main.Position = UDim2.new(0.363293529, 0, 0.28638497, 0)
+Main.Size = UDim2.new(0, 300, 0, 154)
+Main.Style = Enum.FrameStyle.ChatRed
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(17, 1, 1)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.025588274, 0, -0.0890700519, 0)
+TextLabel.Size = UDim2.new(0, 250, 0, 30)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "JN HH Gaming Speed"
+TextLabel.TextColor3 = Color3.fromRGB(245, 16, 16)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 12.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(17, 1, 1)
+TextButton.Position = UDim2.new(0.136470661, 0, 0.458670378, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 58)
+TextButton.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "Click To Activate"
+TextButton.TextColor3 = Color3.fromRGB(21, 235, 78)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:connect(function()
+ while true do wait() game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60 end
+Walkspeed()
+end)
+-- Scripts:
+
+local function LASGYB_fake_script() -- ScreenGui.Script 
+	local script = Instance.new('Script', ScreenGui)
+
+	frame = script.Parent.Main -- Take out {}s, and put name of frame
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(LASGYB_fake_script)()
+
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+
+shared.enabled = w
+game:GetService("RunService").heartbeat:connect(function()
+if not shared.enabled then return end
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.out._NetManaged.GroundHit:FireServer(workspace.Map.Blocks,1645488277.345853)
+wait()
+end)
+
+-- FE Invisible
+
+Local = game:GetService('Players').LocalPlayer
+Char  = Local.Character
+touched,tpdback = false, false
+Local.CharacterAdded:connect(function(char)
+    if script.Disabled ~= true then
+        wait(.25)
+        loc = Char.HumanoidRootPart.Position
+        Char:MoveTo(box.Position + Vector3.new(0,.5,0))
+    end
+end)
+game:GetService('UserInputService').InputBegan:connect(function(key)
+    if key.KeyCode == Enum.KeyCode.Equals then
+        if script.Disabled ~= true then
+            script.Disabled = true
+            print'you may re-execute'
+        end
+    end
+end)
+box = Instance.new('Part',workspace)
+box.Anchored = true
+box.CanCollide = true
+box.Size = Vector3.new(10,1,10)
+box.Position = Vector3.new(0,10000,0)
+box.Touched:connect(function(part)
+    if (part.Parent.Name == Local.Name) then
+        if touched == false then
+            touched = true
+            function apply()
+                if script.Disabled ~= true then
+                    no = Char.HumanoidRootPart:Clone()
+                    wait(.25)
+                    Char.HumanoidRootPart:Destroy()
+                    no.Parent = Char
+                    Char:MoveTo(loc)
+                    touched = false
+                end end
+            if Char then
+                apply()
+            end
+        end
+    end
+end)
+repeat wait() until Char
+loc = Char.HumanoidRootPart.Position
+Char:MoveTo(box.Position + Vector3.new(0,.5,0))
+
+local Camera = game:GetService("Workspace").CurrentCamera
+local Players = game:GetService("Players")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+
+local function GetClosestPlayer()
+   local ClosestPlayer = nil
+   local FarthestDistance = math.huge
+
+   for i, v in pairs(Players.GetPlayers(Players)) do
+       if v ~= LocalPlayer and v.Character and v.Character.FindFirstChild(v.Character, "HumanoidRootPart") then
+           local DistanceFromPlayer = (LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude
+
+           if DistanceFromPlayer < FarthestDistance then
+               FarthestDistance = DistanceFromPlayer
+               ClosestPlayer = v
+           end
+       end
+   end
+
+   if ClosestPlayer then
+       return ClosestPlayer
+   end
+end
+
+local Camera = game:GetService("Workspace").CurrentCamera
+local Players = game:GetService("Players")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+
+local function GetClosestPlayer()
+   local ClosestPlayer = nil
+   local FarthestDistance = math.huge
+
+   for i, v in pairs(Players.GetPlayers(Players)) do
+       if v ~= LocalPlayer and v.Character and v.Character.FindFirstChild(v.Character, "HumanoidRootPart") then
+           local DistanceFromPlayer = (LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude
+
+           if DistanceFromPlayer < FarthestDistance then
+               FarthestDistance = DistanceFromPlayer
+               ClosestPlayer = v
+           end
+       end
+   end
+
+   if ClosestPlayer then
+       return ClosestPlayer
+   end
+end
+
+local GameMetaTable = getrawmetatable(game)
+local OldGameMetaTableNamecall = GameMetaTable.__namecall
+setreadonly(GameMetaTable, false)
+
+GameMetaTable.__namecall = newcclosure(function(object, ...)
+   local NamecallMethod = getnamecallmethod()
+   local Arguments = {...}
+
+   if tostring(NamecallMethod) == "FindPartOnRayWithIgnoreList" then
+       local ClosestPlayer = GetClosestPlayer()
+       
+       if ClosestPlayer and ClosestPlayer.Character then
+           Arguments[1] = Ray.new(Camera.CFrame.Position, (ClosestPlayer.Character.Head.Position - Camera.CFrame.Position).Unit * (Camera.CFrame.Position - ClosestPlayer.Character.Head.Position).Magnitude)
+       end
+   end
+
+   return OldGameMetaTableNamecall(object, unpack(Arguments))
+end)
+
+setreadonly(GameMetaTable, true)
+end)
+--Anime Dimensions
+local GameSection = Game:NewSection("Anime Dimensions")
+GameSection:NewButton("Anime Dimensions 1", "Credits To Owner", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/lifaiossama/errors/main/Intruders.html")()
+end)
+GameSection:NewButton("Anime Dimensions 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+end)
+GameSection:NewButton("Anime Dimensions 3", "Credits To Owners", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TheWitch-BirdHub/BirdHubv0.1/main/load"))()
+end)
+GameSection:NewButton("Anime Dimension 4", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ghost-home/public/main/AnimeGhost.lua', true))()
+end)
+--Ultra Power Tycoon 
+local GameSection = Game:NewSection("Ultra Power Tycoon")
+GameSection:NewButton("Ultra Power Tycoon 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PunyGbriel/ScriptUltraPowerTycoon/main/BEESUltraPowerTycoon.txt"))()
+end)
+GameSection:NewButton("Ultra Power Tycoon 2", "Credits To Owner", function()
+loadstring(game:HttpGet("https://bit.ly/3cWNFwd"))()
+end)
+GameSection:NewButton("Ultra Power Tycoon 3", "Credits To Owner", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Ultra%20Power%20Tycoon.lua"))()
+end)
+GameSection:NewButton("Ultra Power Tycoon 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/6UwPt11f"))()
+end)
+--Animal Simulator
+local GameSection = Game:NewSection("Animal Simulator")
+GameSection:NewButton("Animal Simulator 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CrowzScripts/AnimalSim/main/CrowOnTop"))()
+end)
+GameSection:NewButton("Animal Simulator 2", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/LeftOnReadInvalid/RobloxStuff/main/Animal%20Simulator%20GUI', true))()
+end)
+GameSection:NewButton("Animal simulator 3", "Credits To Owner", function()
+-- By DevSenpai Small Exploit Script Developer
+-- join SenpaiScript Discord Group his my Friend https://discord.gg/xjTMBJe6tg
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local frame = Instance.new("Frame")
+local Photo = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local OFF = Instance.new("TextButton")
+local ON = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+frame.Name = "frame"
+frame.Parent = ScreenGui
+frame.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+frame.BackgroundTransparency = 1.000
+frame.Position = UDim2.new(0.39531222, 0, 0.252102971, 0)
+frame.Size = UDim2.new(0, 182, 0, 260)
+frame.Active = true
+frame.Draggable = true
+
+Photo.Name = "Photo"
+Photo.Parent = frame
+Photo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Photo.Position = UDim2.new(-0.00105160568, 0, -0.00663622376, 0)
+Photo.Size = UDim2.new(0, 185, 0, 264)
+Photo.Image = "rbxassetid://6687673823"
+
+UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.Parent = Photo
+
+OFF.Name = "OFF"
+OFF.Parent = frame
+OFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OFF.BackgroundTransparency = 1.000
+OFF.Position = UDim2.new(0.0674995333, 0, 0.606759489, 0)
+OFF.Size = UDim2.new(0, 159, 0, 50)
+OFF.Font = Enum.Font.SourceSans
+OFF.Text = "OFF"
+OFF.TextColor3 = Color3.fromRGB(255, 255, 255)
+OFF.TextScaled = true
+OFF.TextSize = 14.000
+OFF.TextWrapped = true
+OFF.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenpaiSripter/Fails/main/AnimalSimulatorFail" , true))()
+end)
+
+ON.Name = "ON"
+ON.Parent = frame
+ON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ON.BackgroundTransparency = 1.000
+ON.Position = UDim2.new(0.0683099926, 0, 0.283556789, 0)
+ON.Size = UDim2.new(0, 159, 0, 50)
+ON.Font = Enum.Font.SourceSans
+ON.Text = "ON"
+ON.TextColor3 = Color3.fromRGB(255, 255, 255)
+ON.TextScaled = true
+ON.TextSize = 14.000
+ON.TextWrapped = true
+ON.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenpaiSripter/AnimalSimulator1/main/AnimalSimulatorScript" , true))()
+end)
+
+TextLabel.Parent = frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.00105160568, 0, -0.0351857096, 0)
+TextLabel.Size = UDim2.new(0, 185, 0, 66)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "DevSenpai"
+TextLabel.TextColor3 = Color3.fromRGB(255, 85, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+end)
+--Anime Figther Simulater
+local GameSection = Game:NewSection("Anime Fighter Simulator")
+GameSection:NewButton("Anime Figther 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/M4tr1x01/luascripts/main/solohub.lua"))()
+end)
+GameSection:NewButton("Anime Fighter 2", "Credits To Owner", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeyyyRappp/HeyyyRappp/main/swhubloader/Loader.lua/matthewpogi/trishacheater')))()
+end)
+GameSection:NewButton("Anime Fighter 3", "Credits To Owner", function()
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Subscribe To xMiles_Games";
+    Text = "Subscribe For More Scripts"; -- what the text says (ofc)
+    Duration = 60;
+})
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/AnimeFightingSim'),true))()
+end)
+GameSection:NewButton("AnimeFighter 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
+end)
+GameSection:NewButton("AnimeFighter 5", "Credits To Owner", function()
+loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))(); 
+end)
+GameSection:NewButton("AnimeFighter 6", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+GameSection:NewButton("AnimeFighter 7", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+end)
+--Shindo Life
+local GameSection = Game:NewSection("Shindo Life")
+GameSection:NewButton("Shindo Life 1","Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+end)
+GameSection:NewButton("Shindo Life 2","Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/Revamps/main/SpyHub.lua"))()
+end)
+GameSection:NewButton("Shindo Life 3","Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))()
+end)
+GameSection:NewButton("Shindo Life 4", "Credits To Owner", function()
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/GAGA5H8t"))();
+
+local Gamer = library:CreateSection("Shindo Life");
+Gamer:Button("~ Press Right Shift To Hide GUI ~");
+function LoadMe(link)
+    loadstring(game:HttpGet(link))()
+end
+Gamer:Button("Infinite Spins", function()
+    LoadMe('https://raw.githubusercontent.com/FurkyYT/stuff/main/infspin')
+end)
+Gamer:Button("Best GUI", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/i53Y3rew",true))()
+end)
+Gamer:Button("NEW OP GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/6Wumpus6/SpyHub/main/ShindoLife", true))()
+end)
+Gamer:Button("GUI 2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
+end)
+Gamer:Button("GUI 3", function()
+    LoadMe('http://assasine.com/Scripts/Shinobi_Life_2_Autofarm.lua')
+end)
+Gamer:Button("GUI 4", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/Kc7XZKbC'),true))()
+end)
+Gamer:Button("Auto Quest", function()
+    LoadMe('https://pastebin.com/raw/d993kP6G')
+end)
+Gamer:Button('Inf Chakra',function()
+    _G.InfChakra = true
+    loadstring(game:HttpGet('https://pastebin.com/raw/P0BqvPg7'))()    
+end)
+
+library:Ready();
+end)
+GameSection:NewButton("Shindo Life 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+end)
+--Clicker Simulator
+local GameSection = Game:NewSection("Clicker Simulator")
+GameSection:NewButton("Clicker Simulator 1", "Credits To Owner", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/YdfYvekX"))()
+end)
+GameSection:NewButton("Clicker Simulator 2", "Credits To Ownert", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+end)
+GameSection:NewButton("Clicker Simulator 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kederal/script.gg/main/loader.lua"))()
+end)
+GameSection:NewButton("Clicker Simulator 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
+end)
+GameSection:NewButton("Clicker Simulator 5", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+end)
+GameSection:NewButton("Clicker Simulator 6", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
+end)
+--Pls Donate
+local GameSection = Game:NewSection("Pls Donate")
+GameSection:NewButton("Pls Donate 1", "Credits To Owner", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/o5u3/PLS-Donate/main/Fake-Donate.lua")))()
+end)
+GameSection:NewButton("Pls Donate 2", "Credits To Owner", function()
+loadstring(game:HttpGet('https://tubhub.cloud/scripts/prettyplease.lua', false))()
+end)
+GameSection:NewButton("Pls Donate 3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
+end)
+GameSection:NewButton("Pls Donate 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/PLEASE-DONATE-NEW-GUI-/main/METAB"))();
+end)
+--Mining Simulator 2
+local GameSection = Game:NewSection("Mining Simulator 2")
+GameSection:NewButton("Mining Sim 2 1 (Key)","Credits To Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectLightningDev/Project-Lightning-Loader/main/Loader.Lua"))()
+end)
+GameSection:NewButton("Mining Sim 2 2","Credits To Owner",function()
+loadstring(game:HttpGet("https://soggy-ware.cf"))()
+end)
+GameSection:NewButton("Mining Sim 2 (Autofarm) 3", "Credits To Owner", function()
+getgenv().Chests = {
+'Legendary';
+'Epic';
+}
+loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/serverhop.lua')()
+end)
+GameSection:NewButton("Mining Sim 2 4", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/MaGiXxScripter/Cum-Hub/main/loader'))()
+end)
+GameSection:NewButton("Mining sim 2 5", "Credits To Owner", function()
+_G.key = "aMoGuS" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+end)
+GameSection:NewButton("Mining Sim 2 6", "Credits To Owner", function()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua')()
+end)
+GameSection:NewButton("Mining Sim 2 7", "Credits To Owner", function()
+loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/script.lua')()
+end)
+--Zombie Attack
+local GameSection = Game:NewSection("Zombie Attack")
+GameSection:NewButton("Zombie Attack (Key) 1","Credits To Owner",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+end)
+GameSection:NewButton("Zombie Attack 2","Credits To Owner",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+GameSection:NewButton("Zombie Attack 3","Credits To Owner",function()
+loadstring(game:HttpGet("https://www.klgrth.io/paste/g4h99/raw"))()
+end)
+GameSection:NewButton("Zombie Attack 4","Credits To Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Zombie%20Attack.lua"))()
+end)
+GameSection:NewButton("Zombie Attack (Big Head) 5","Credits To Owner",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/xSyon/ZombieAttack/main/engine.lua'),true))()
+end)
+GameSection:NewButton("Zombie Attack (Autofarm) 6","Credits To Owner",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/LUprkdQC", true))()
+end)
+GameSection:NewButton("Zombie Attack 7", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://ghost-storage.7m.pl/scripts/ghosthublauncher.lua'))()
+end)
+GameSection:NewButton("Zombie Attack 8", "Credits To Owner", function()
+-- Made by TeamPoison --
+-- V3rmillion: T3aMp0isoN --
+-- Discord: Brother Omar#9562 --
+
+local ZombieAttackGUI = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local ConsoleFrame = Instance.new("Frame")
+local Console = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local KillPlatform = Instance.new("TextButton")
+local StealKills = Instance.new("TextButton")
+local AutoFarm = Instance.new("TextButton")
+local NoRecoil = Instance.new("TextButton")
+local Guns = Instance.new("TextButton")
+local Knifes = Instance.new("TextButton")
+local Fly = Instance.new("TextButton")
+local Noclip = Instance.new("TextButton")
+local Gravity = Instance.new("TextButton")
+local Speed = Instance.new("TextButton")
+local Jump = Instance.new("TextButton")
+local Btools = Instance.new("TextButton")
+ 
+ZombieAttackGUI.Name = "Zombie Attack GUI"
+ZombieAttackGUI.Parent = game.CoreGui
+ZombieAttackGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ZombieAttackGUI
+Main.BackgroundColor3 = Color3.new(0.247059, 0, 0.372549)
+Main.BackgroundTransparency = 0.15000000596046
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.794708014, 0, 0, 0)
+Main.Size = UDim2.new(0.191605836, 0, 1, 0)
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0768115819, 0, 0.068296887, 0)
+TextLabel.Size = UDim2.new(0.842857122, 0, 0.0322580636, 0)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "Made by T3aMp0isoN on v3rm"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0434782468, 0, 0.0118953418, 0)
+TextLabel_2.Size = UDim2.new(0.90476191, 0, 0.0569259971, 0)
+TextLabel_2.Font = Enum.Font.SourceSansSemibold
+TextLabel_2.Text = "Zombie Attack Menu"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrapped = true
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.new(0.0156863, 0.0156863, 0.0156863)
+Frame.BackgroundTransparency = 0.5
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.111954458, 0)
+Frame.Size = UDim2.new(1, 0, 0.0417457297, 0)
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.0434782468, 0, 0.181818187, 0)
+TextLabel_3.Size = UDim2.new(0.90476191, 0, 0.590909064, 0)
+TextLabel_3.Font = Enum.Font.SourceSansSemibold
+TextLabel_3.Text = "Console"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+ConsoleFrame.Name = "ConsoleFrame"
+ConsoleFrame.Parent = Main
+ConsoleFrame.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+ConsoleFrame.BackgroundTransparency = 0.5
+ConsoleFrame.BorderSizePixel = 0
+ConsoleFrame.Position = UDim2.new(0, 0, 0.153700188, 0)
+ConsoleFrame.Size = UDim2.new(1, 0, 0.0967741907, 0)
+
+Console.Name = "Console"
+Console.Parent = ConsoleFrame
+Console.BackgroundColor3 = Color3.new(1, 1, 1)
+Console.BackgroundTransparency = 1
+Console.BorderSizePixel = 0
+Console.Position = UDim2.new(0.0387163423, 0, 0.117647059, 0)
+Console.Size = UDim2.new(0.909523785, 0, 0.764705896, 0)
+Console.Font = Enum.Font.SourceSans
+Console.Text = "Status: Ready to use\n\n"
+Console.TextColor3 = Color3.new(0.333333, 1, 0)
+Console.TextScaled = true
+Console.TextSize = 14
+Console.TextWrapped = true
+Console.TextXAlignment = Enum.TextXAlignment.Left
+Console.TextYAlignment = Enum.TextYAlignment.Top
+
+Frame_2.Parent = Main
+Frame_2.BackgroundColor3 = Color3.new(0.0156863, 0.0156863, 0.0156863)
+Frame_2.BackgroundTransparency = 0.5
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.250474393, 0)
+Frame_2.Size = UDim2.new(0.995238066, 0, 0.0417457297, 0)
+
+TextLabel_4.Parent = Frame_2
+TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.0482401513, 0, 0.181818187, 0)
+TextLabel_4.Size = UDim2.new(0.904306233, 0, 0.590909064, 0)
+TextLabel_4.Font = Enum.Font.SourceSansSemibold
+TextLabel_4.Text = "Main Mods"
+TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_3.Parent = Main
+Frame_3.BackgroundColor3 = Color3.new(0.0156863, 0.0156863, 0.0156863)
+Frame_3.BackgroundTransparency = 0.5
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 0.455407977, 0)
+Frame_3.Size = UDim2.new(1, 0, 0.0417457297, 0)
+
+TextLabel_5.Parent = Frame_3
+TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_5.BackgroundTransparency = 1
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0434782468, 0, 0.181818187, 0)
+TextLabel_5.Size = UDim2.new(0.90476191, 0, 0.590909064, 0)
+TextLabel_5.Font = Enum.Font.SourceSansSemibold
+TextLabel_5.Text = "Weapon Mods"
+TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_4.Parent = Main
+Frame_4.BackgroundColor3 = Color3.new(0.0156863, 0.0156863, 0.0156863)
+Frame_4.BackgroundTransparency = 0.5
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 0.65464896, 0)
+Frame_4.Size = UDim2.new(0.995238066, 0, 0.0417457297, 0)
+
+TextLabel_6.Parent = Frame_4
+TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.0482401513, 0, 0.18181771, 0)
+TextLabel_6.Size = UDim2.new(0.909090936, 0, 0.590909064, 0)
+TextLabel_6.Font = Enum.Font.SourceSansSemibold
+TextLabel_6.Text = "Local Player Mods"
+TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+KillPlatform.Name = "KillPlatform"
+KillPlatform.Parent = Main
+KillPlatform.BackgroundColor3 = Color3.new(1, 1, 1)
+KillPlatform.BackgroundTransparency = 1
+KillPlatform.Position = UDim2.new(0.0434782468, 0, 0.309297919, 0)
+KillPlatform.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+KillPlatform.Font = Enum.Font.SourceSansSemibold
+KillPlatform.Text = "Kill Platform "
+KillPlatform.TextColor3 = Color3.new(1, 1, 1)
+KillPlatform.TextScaled = true
+KillPlatform.TextSize = 14
+KillPlatform.TextWrapped = true
+KillPlatform.TextXAlignment = Enum.TextXAlignment.Left
+
+StealKills.Name = "StealKills"
+StealKills.Parent = Main
+StealKills.BackgroundColor3 = Color3.new(1, 1, 1)
+StealKills.BackgroundTransparency = 1
+StealKills.Position = UDim2.new(0.0434782468, 0, 0.354838729, 0)
+StealKills.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+StealKills.Font = Enum.Font.SourceSansSemibold
+StealKills.Text = "Steal Kills"
+StealKills.TextColor3 = Color3.new(1, 1, 1)
+StealKills.TextScaled = true
+StealKills.TextSize = 14
+StealKills.TextWrapped = true
+StealKills.TextXAlignment = Enum.TextXAlignment.Left
+
+AutoFarm.Name = "AutoFarm"
+AutoFarm.Parent = Main
+AutoFarm.BackgroundColor3 = Color3.new(1, 1, 1)
+AutoFarm.BackgroundTransparency = 1
+AutoFarm.Position = UDim2.new(0.0434782468, 0, 0.400379539, 0)
+AutoFarm.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+AutoFarm.Font = Enum.Font.SourceSansSemibold
+AutoFarm.Text = "Auto Farm"
+AutoFarm.TextColor3 = Color3.new(1, 1, 1)
+AutoFarm.TextScaled = true
+AutoFarm.TextSize = 14
+AutoFarm.TextWrapped = true
+AutoFarm.TextXAlignment = Enum.TextXAlignment.Left
+
+NoRecoil.Name = "NoRecoil"
+NoRecoil.Parent = Main
+NoRecoil.BackgroundColor3 = Color3.new(1, 1, 1)
+NoRecoil.BackgroundTransparency = 1
+NoRecoil.Position = UDim2.new(0.0434782468, 0, 0.510436416, 0)
+NoRecoil.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+NoRecoil.Font = Enum.Font.SourceSansSemibold
+NoRecoil.Text = "No Recoil"
+NoRecoil.TextColor3 = Color3.new(1, 1, 1)
+NoRecoil.TextScaled = true
+NoRecoil.TextSize = 14
+NoRecoil.TextWrapped = true
+NoRecoil.TextXAlignment = Enum.TextXAlignment.Left
+
+Guns.Name = "Guns"
+Guns.Parent = Main
+Guns.BackgroundColor3 = Color3.new(1, 1, 1)
+Guns.BackgroundTransparency = 1
+Guns.Position = UDim2.new(0.0434782468, 0, 0.555977225, 0)
+Guns.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+Guns.Font = Enum.Font.SourceSansSemibold
+Guns.Text = "Equip All Guns"
+Guns.TextColor3 = Color3.new(1, 1, 1)
+Guns.TextScaled = true
+Guns.TextSize = 14
+Guns.TextWrapped = true
+Guns.TextXAlignment = Enum.TextXAlignment.Left
+
+Knifes.Name = "Knifes"
+Knifes.Parent = Main
+Knifes.BackgroundColor3 = Color3.new(1, 1, 1)
+Knifes.BackgroundTransparency = 1
+Knifes.Position = UDim2.new(0.0434782468, 0, 0.603415549, 0)
+Knifes.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+Knifes.Font = Enum.Font.SourceSansSemibold
+Knifes.Text = "Equip All Knifes "
+Knifes.TextColor3 = Color3.new(1, 1, 1)
+Knifes.TextScaled = true
+Knifes.TextSize = 14
+Knifes.TextWrapped = true
+Knifes.TextXAlignment = Enum.TextXAlignment.Left
+
+Fly.Name = "Fly"
+Fly.Parent = Main
+Fly.BackgroundColor3 = Color3.new(1, 1, 1)
+Fly.BackgroundTransparency = 1
+Fly.Position = UDim2.new(0.0434782468, 0, 0.709677398, 0)
+Fly.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+Fly.Font = Enum.Font.SourceSansSemibold
+Fly.Text = "Toggle Flying Mode"
+Fly.TextColor3 = Color3.new(1, 1, 1)
+Fly.TextScaled = true
+Fly.TextSize = 14
+Fly.TextWrapped = true
+Fly.TextXAlignment = Enum.TextXAlignment.Left
+
+Noclip.Name = "Noclip"
+Noclip.Parent = Main
+Noclip.BackgroundColor3 = Color3.new(1, 1, 1)
+Noclip.BackgroundTransparency = 1
+Noclip.Position = UDim2.new(0.0434782468, 0, 0.755218208, 0)
+Noclip.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+Noclip.Font = Enum.Font.SourceSansSemibold
+Noclip.Text = "Toggle NoClip"
+Noclip.TextColor3 = Color3.new(1, 1, 1)
+Noclip.TextScaled = true
+Noclip.TextSize = 14
+Noclip.TextWrapped = true
+Noclip.TextXAlignment = Enum.TextXAlignment.Left
+
+Gravity.Name = "Gravity"
+Gravity.Parent = Main
+Gravity.BackgroundColor3 = Color3.new(1, 1, 1)
+Gravity.BackgroundTransparency = 1
+Gravity.Position = UDim2.new(0.0387163423, 0, 0.802656531, 0)
+Gravity.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+Gravity.Font = Enum.Font.SourceSansSemibold
+Gravity.Text = "Low Gravity"
+Gravity.TextColor3 = Color3.new(1, 1, 1)
+Gravity.TextScaled = true
+Gravity.TextSize = 14
+Gravity.TextWrapped = true
+Gravity.TextXAlignment = Enum.TextXAlignment.Left
+
+Speed.Name = "Speed"
+Speed.Parent = Main
+Speed.BackgroundColor3 = Color3.new(1, 1, 1)
+Speed.BackgroundTransparency = 1
+Speed.Position = UDim2.new(0.0387163423, 0, 0.851992369, 0)
+Speed.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+Speed.Font = Enum.Font.SourceSansSemibold
+Speed.Text = "Super Speed"
+Speed.TextColor3 = Color3.new(1, 1, 1)
+Speed.TextScaled = true
+Speed.TextSize = 14
+Speed.TextWrapped = true
+Speed.TextXAlignment = Enum.TextXAlignment.Left
+
+Jump.Name = "Jump"
+Jump.Parent = Main
+Jump.BackgroundColor3 = Color3.new(1, 1, 1)
+Jump.BackgroundTransparency = 1
+Jump.Position = UDim2.new(0.0434782468, 0, 0.899430692, 0)
+Jump.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+Jump.Font = Enum.Font.SourceSansSemibold
+Jump.Text = "Super Jump"
+Jump.TextColor3 = Color3.new(1, 1, 1)
+Jump.TextScaled = true
+Jump.TextSize = 14
+Jump.TextWrapped = true
+Jump.TextXAlignment = Enum.TextXAlignment.Left
+
+Btools.Name = "Btools"
+Btools.Parent = Main
+Btools.BackgroundColor3 = Color3.new(1, 1, 1)
+Btools.BackgroundTransparency = 1
+Btools.Position = UDim2.new(0.0434782468, 0, 0.946869016, 0)
+Btools.Size = UDim2.new(0.90476191, 0, 0.034155596, 0)
+Btools.Font = Enum.Font.SourceSansSemibold
+Btools.Text = "B-Tools"
+Btools.TextColor3 = Color3.new(1, 1, 1)
+Btools.TextScaled = true
+Btools.TextSize = 14
+Btools.TextWrapped = true
+Btools.TextXAlignment = Enum.TextXAlignment.Left
+-- scripts 
+Fly.MouseButton1Click:Connect(function()
+Console.Text = ("Press E to activate and deactivate flying mode\n\n ")
+wait(0.2)
+loadstring(game:HttpGet(('https://pastebin.com/raw/7rXZ9VNc'),true))()
+wait(5)
+Console.Text = ("Status: Ready To Use\n\n")
+end)
+
+Noclip.MouseButton1Click:connect(function()
+if Console.Text == "Toggle NoClip" then
+noclip = true
+Console.Text = "Toggle NoClip: On"
+        Console.TextColor3 = Color3.new(0,185,0)
+game:GetService('RunService').Stepped:connect(function()
+if noclip then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+                 end
+        end)
+    elseif Console.Text == "Toggle NoClip: On" then
+        noclip = false
+        Console.Text = "Toggle NoClip: Off"
+        Console.TextColor3 = Color3.new(170,0,0)
+elseif Console.Text == "Toggle NoClip: On" then
+    noclip = true
+Console.Text = "Toggle NoClip: On"
+        Console.TextColor3 = Color3.new(0,185,0)
+    end
+end)
+
+Knifes.MouseButton1Click:connect(function()
+	for _,Thing in pairs(game.ReplicatedStorage.Knives:GetChildren()) do
+if Thing:IsA("Tool") then
+Thing.Parent = game.Players.LocalPlayer.Backpack
+end
+end
+end)
+
+Guns.MouseButton1Click:connect(function()
+	for _,Thing in pairs(game.ReplicatedStorage.Guns:GetChildren()) do
+if Thing:IsA("Tool") then
+Thing.Parent = game.Players.LocalPlayer.Backpack
+end
+end
+end)
+
+KillPlatform.MouseButton1Click:connect(function()
+	plr = game:service'Players'.LocalPlayer
+char = plr.Character
+root = char.HumanoidRootPart
+iszombie = false
+ 
+platform = Instance.new('Part', workspace)
+platform.Size = Vector3.new(100,0,100)
+platform.Anchored = true
+platform.Position = Vector3.new(555,555,555)
+root.CFrame = platform.CFrame * CFrame.new(0,4,0)
+ 
+if workspace:FindFirstChild(plr.Name) then
+   iszombie = false
+   warn'You are not a zombie!'
+else
+   iszombie = true
+   warn'You are a zombie!'
+end
+ 
+wait(.5)
+ 
+if not iszombie then
+   for _, a in pairs(workspace.enemies:children()) do
+       for _, b in pairs(a:children()) do
+           if b:IsA'Part' then
+               b.Anchored = true
+               b.CFrame = root.CFrame * CFrame.new(2,0,2)
+           end
+       end
+   end
+elseif iszombie then
+   for _, a in pairs(game:service'Players':GetPlayers()) do
+       if a.Character then
+           for _, b in pairs(a.Character:children()) do
+               if b:IsA'Part' and a.Name ~= plr.Name then
+                   b.Anchored = true
+                   b.CFrame =  root.CFrame * CFrame.new(2,0,2)
+               end
+           end
+       end
+   end
+end
+end)
+
+Speed.MouseButton1Click:connect(function()
+	plr = game:service'Players'.LocalPlayer
+char = plr.Character
+hum = char:FindFirstChildOfClass'Humanoid'
+
+hum.WalkSpeed = 60
+	
+end)
+
+Jump.MouseButton1Click:connect(function()
+	plr = game:service'Players'.LocalPlayer
+char = plr.Character
+hum = char:FindFirstChildOfClass'Humanoid'
+
+hum.JumpPower = 100
+end)
+
+AutoFarm.MouseButton1Click:connect(function()
+	local groundDistance = 8
+local Player = game:GetService("Players").LocalPlayer
+local function getNearest()
+local nearest, dist = nil, 99999
+for _,v in pairs(game.Workspace.BossFolder:GetChildren()) do
+if(v:FindFirstChild("Head")~=nil)then
+local m =(Player.Character.Head.Position-v.Head.Position).magnitude
+if(m<dist)then
+dist = m
+nearest = v
+end
+end
+end
+for _,v in pairs(game.Workspace.enemies:GetChildren()) do
+if(v:FindFirstChild("Head")~=nil)then
+local m =(Player.Character.Head.Position-v.Head.Position).magnitude
+if(m<dist)then
+dist = m
+nearest = v
+end
+end
+end
+return nearest
+end
+_G.farm2 = true
+Player.Chatted:Connect(function(m)
+if(m==";autofarm false")then
+_G.farm2 = false
+elseif(m==";autofarm true")then
+_G.farm2 = true
+end
+end)
+_G.globalTarget = nil
+game:GetService("RunService").RenderStepped:Connect(function()
+if(_G.farm2==true)then
+local target = getNearest()
+if(target~=nil)then
+game:GetService("Workspace").CurrentCamera.CFrame = CFrame.new(game:GetService("Workspace").CurrentCamera.CFrame.p, target.Head.Position)
+Player.Character.HumanoidRootPart.CFrame = (target.HumanoidRootPart.CFrame * CFrame.new(0, groundDistance, 9))
+_G.globalTarget = target
+end
+end
+end)
+spawn(function()
+while wait() do
+game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
+game.Players.LocalPlayer.Character.Torso.Velocity = Vector3.new(0,0,0)
+end
+end)
+while wait() do
+if(_G.farm2==true and _G.globalTarget~=nil and _G.globalTarget:FindFirstChild("Head") and Player.Character:FindFirstChildOfClass("Tool"))then
+local target = _G.globalTarget
+game.ReplicatedStorage.Gun:FireServer({["Normal"] = Vector3.new(0, 0, 0), ["Direction"] = target.Head.Position, ["Name"] = Player.Character:FindFirstChildOfClass("Tool").Name, ["Hit"] = target.Head, ["Origin"] = target.Head.Position, ["Pos"] = target.Head.Position,})
+wait()
+end
+end
+end)
+
+Btools.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/T0qaXjAR", true))()
+end)
+
+Gravity.MouseButton1Click:connect(function()
+	game.Workspace.Gravity = 5
+end)
+end)
+--Break In
+local GameSection = Game:NewSection("Break In")
+GameSection:NewButton("Break In 1","Credits To Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+end)
+GameSection:NewButton("Break In 2","Credits To Owner",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/kizK33QB"))()
+end)
+GameSection:NewButton("Break In 3","Credits To Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/megamoeus/HHubmega/master/BreakIn", true))()
+end)
+GameSection:NewButton("Break In 4", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
+end)
+GameSection:NewButton("Break in 5", "Credits To Owner", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/MHx8q6xP'),true))()
+end)
+--Adopt me
+local GameSection = Game:NewSection("Adopt Me")
+GameSection:NewButton("Adopt Me 1 (Autofarm)","Credits To Owner",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KodaLINEN/LFAM/main/auto'))()
+end)
+GameSection:NewButton("Adopt Me 2","Credits To Owner",function()
+loadstring(game:HttpGet(('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'),true))()
+end)
+GameSection:NewButton("Adopt Me 3","Credits To Owner",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Cospog-Scripts/shnigelutils/main/mainLoader.lua'),true))()
+end)
+GameSection:NewButton("Adopt Me 3","Credits To Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
+end)
+GameSection:NewButton("Adopt Me 4","Credits To Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lf4d7/daphie/main/ame.lua"))()
+end)
+GameSection:NewButton("Adopt Me 5 (Autofarm)", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
+end)
+
+--Guis
+local Gui = Window:NewTab("Guis")
+local GuiSection = Gui:NewSection("Guis")
+GuiSection:NewButton("Script Searcher", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+end)
+GuiSection:NewButton("BackDoor Script", "Works In Backdoor Games", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ghtingBolt/FraktureSS/master/unobfuscated.lua"))()
+end)
+GuiSection:NewButton("Bido Hub V1.5", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20SkinsV1.5"))()
+end)
+GuiSection:NewButton("Envixity Scripts Hub", "Credits To Owner", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/MzEDLMC2", true))()
+end)
+GuiSection:NewButton("BritishHubV6", "Credits To Owner", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BHob6"),true))()
+end)
+GuiSection:NewButton("FireHubV1", "Credits to Owner", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/REuMknBd', True))()
+end)
+GuiSection:NewButton("PendulumHub", "Credits to Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V4.lua"))()
+end)
+GuiSection:NewButton("PritishHub V1", "Credits To Owner", function()
+loadstring(game:HttpGet(('https://cdn.discordapp.com/attachments/996659065096765502/996659173213343804/out.lua'),true))()
+end)
+GuiSection:NewButton("Game Hub v6.1", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-Script/main/Games%20Hub%20(Always%20updated)"))()
+end)
+GuiSection:NewButton("VHub", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()
+end)
+GuiSection:NewButton("Moon Ui", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v13-102-SCRIPTS/main/MoonUI%20v13!"))()
+end)
+GuiSection:NewButton("Moon Hub v3", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://github.com/voiddscripts/moon/raw/main/script.lua"))()
+end)
+GuiSection:NewButton("Moon Hub Universal", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://github.com/voiddscripts/moon/raw/main/universal.lua"))()
+end)
+GuiSection:NewButton("HarshTech v7.6", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/HarshTechV7.6-Pc-Or-Mobile.lua"))()
+end)
+GuiSection:NewButton("Fathom Hub", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/Y4AGJALY"))()
+end)
+GuiSection:NewButton("Multi Script Hub X", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/0n1kidd/Multi-Script-Hub-X/main/Protected.lua_1.txt"))()
+end)
+GuiSection:NewButton("SCRIPTER HUB V3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTERV3/SCRIPTER/main/SCRIPTER%20HUB%20V3"))()
+end)
+GuiSection:NewButton("Bido Skins V1.3", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.3"))()
+end)
+GuiSection:NewButton("Davi Hub V2", "Credits To Owner", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Davicoderliner/davigui/main/Daviguiv2loader.lua"),true))()
+end)
+GuiSection:NewButton("Moon Hub V13", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v13-102-SCRIPTS/main/MoonUI%20v13!"))()
+end)
+GuiSection:NewButton("Krnl UI","Credits To Owner",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/M3HjLPU7"))()
+end)
+GuiSection:NewButton("Synpase UI","Credits To Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/Synapse-X-Remake.lua"))()
+end)
+GuiSection:NewButton("MoonUI-V11","Credits To Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v11-v1/main/MoonUI"))()
+end)
+GuiSection:NewButton("Spy Gui","Credits To Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MichaelScripter/MiniScript/main/Spy%20gui.lua"))()
+end)
+GuiSection:NewButton("Era Hub", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/zRWQnNjS'))()
+end)
+GuiSection:NewButton("Dark Ghost Hub(Key)", "Credits To Owner", function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\80\117\118\112\49\100\119\78\39\41\41\40\41\10")()
+end)
+GuiSection:NewButton("KZS Hub", "Credits To Owner", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KZSHUB/KZS-HUB/main/KZSHUBV1.5", true))()
+end)
+GuiSection:NewButton("Frixon Hub", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://gist.githubusercontent.com/RedoGaming/459eb467f3df927b07ca398a68f3b053/raw/6d1f7a2c8fefd072dc53ebbbec38c6f93c7de1ad/Frixon%2520Hub!%2520New%2520OP%2520Exploit%2520Hub%2520for%2520Roblox!'))()
+end)
+GuiSection:NewButton("itzzJoshua Hub V3", "Credits To Owner", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/gMCev4Gb'),true))();
+end)
+GuiSection:NewButton("GHub","?",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xzekep/Xzekep/main/GHub%20made%20by%20ChrisTheScripter"))()
+end)
+GuiSection:NewButton("Gelatek Hub","Credits To Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+end)
+GuiSection:NewButton("Dodo Hub", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/albibos/dodobird/main/openhub"))()
+end)
+GuiSection:NewButton("Sound Hub", "Credits To Owner", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ColdStep2/Chatdestroyer-Hub-V1/main/Chatdestroyer%20Hub%20V1'),true))()
+end)
+GuiSection:NewButton("BritishHub V8 (Key)","Credits to Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/British%20Hub%20v8"))()
+end)
+GuiSection:NewButton("Game Hub V3","Credits to Owner",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/18ji1xzk"))();
+end)
+GuiSection:NewButton("Game Hub V5","Credits to Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-V5-Selector-Fixed/main/Games"))()
+end)
+GuiSection:NewButton("Arceus V3 Hub","Credits to Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+end)
+GuiSection:NewButton("BritishHub v9", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxArceusXScript/ProtectedLol/main/BritishHubV9'))()
+end)
+GuiSection:NewButton("Pro Hub", "Credits To Owner", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Kindasua/v.1-beta/main/Fixed%20bugs%20v.1%20beta"), true))()
+end)
+GuiSection:NewButton("Terminate Hub", "Credits To Owner", function()
+_G.Velocity = Vector3.new(30,0,0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek/ProjectTerm/main/main.lua"))()
+end)
+GuiSection:NewButton("LX HUB", "Credits To Owner", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gogogamer61/LXHub-Main/main/LXHub%20Main%20Script'),true))()
+end)
+GuiSection:NewButton("Shushi X HUB", "Credits To Owner", function()
+   loadstring(game:HttpGet("https://paste.ee/r/bf5oO", true))()
+end)
+GuiSection:NewButton("Sussy HUB", "Credits To Owner", function()
+   loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
+end)
+GuiSection:NewButton("Bido Skins v1.6", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.6"))()
+end)
+GuiSection:NewButton("Sxrge Script Hub", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/sxrge3k/sxrge_ssh_hub/main/sxrge_script_hub"))()
+end)
+GuiSection:NewButton("MegaHub", "Credits To Owner ", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/WholeF00ds/Mega/main/Obfuscated%20Loader'),true))()
+end)
+GuiSection:NewButton("British Hub V2", "Credits To Owner", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BH%20v2%20Protecc"))()
+end)
+GuiSection:NewButton("B_Genesis HUB", "Credits To Owner", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis'))()
+end)
+GuiSection:NewButton("Legon X Hub", "Credits to Owner", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/Lmaz8vF7'),true))();
+end)
+GuiSection:NewButton("Red Coat", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/RedCoat8102-obfuscated.lua"))()
+end)
+GuiSection:NewButton("Yeeeter30 Hub","Credits To Owner",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Yeeeter30/yeeeter30-hub/main/Yeeeter30%20hub'))()
+end)
+GuiSection:NewButton("Lynch Hub","Credits To Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lynch1720/LynchHub/main/5thUpdate"))()
+end)
+GuiSection:NewButton("Zxkerz Devilz Hub V1","Credits to Owner",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/AQLdnd5g"))()
+end)
+GuiSection:NewButton("XtraX Hub","Credits To Owner",function()
+loadstring(game:HttpGet('https://www.klgrth.io/paste/v7rjy/raw'))()
+end)
+GuiSection:NewButton("GHub","Credits to Owner",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xzekep/Xzekep/main/GHub%20made%20by%20ChrisTheScripter"))()
+end)
+GuiSection:NewButton("Ultimate Trolling Gui", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/AkilExploitz/AkilBlox14-s-Script-Hub-v1.1/9abbc0733af7c9113a5ecbaf4bb2ed5013a4e693/Ultimate%20Trolling%20GUI%20v1.5'))()
+end)
+GuiSection:NewButton("Mega Hub", "Credits to Owner", function()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/WholeF00ds/Mega/main/Obfuscated%20Loader'),true))()
+end)
+GuiSection:NewButton("Mil Hub", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ayto0/MilHub/main/V3"))()
+end)
+GuiSection:NewButton("Mini Hub", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V2/main/FINALLY%20UPDATED%20MINI%20HUB",true))()
+end)
+GuiSection:NewButton("Game Hub/Script Hub By NH BLOX", "Credits to Owner", function()
+  loadstring(game:HttpGet(('https://pastebin.com/raw/brWwrinf'),true))()
+end)
+GuiSection:NewButton("Game Hub by:tomm_xx", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/mDxvKtZe"))()
+end)
+GuiSection:NewButton("VcskV Public", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/VcskV/main/Hub/main.lua", true))()
+end)
+GuiSection:NewButton("Zen Hub", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/KaiZen/main/GameHub", true))()
+end)
+GuiSection:NewButton("ReVP Hub", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/Protected%20"))()
+end)
+GuiSection:NewButton("Ez Hub", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/K4xkQZpv'))()
+end)
+GuiSection:NewButton("1X1X1X1 GUI", "Fex Gui", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/CYye6uA4"))()
+end)
+GuiSection:NewButton("C00lKkd Gui 1", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/HkE93XjW"))()
+end)
+GuiSection:NewButton("C00lkid Gui 2", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ckid", true))()
+end)
+GuiSection:NewButton("C00lKid Gui 3", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/apanel", true))()
+end)
+GuiSection:NewButton("C00lkid Gui 4", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/UPZCQ31W"))()
+end)
+--Player
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player")
+PlayerSection:NewSlider("Walkspeed", "Changes how fast you walk.", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue) 
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+PlayerSection:NewButton("Speed Gui", "Gui Can Speed up Infinitely", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/iShZQHw7'))()
+end)
+PlayerSection:NewSlider("JumpPower", "Changes how high you jump.", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue) 
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+PlayerSection:NewButton("Reset Walkspeed/Jump Power", "Credits To Owner", function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+PlayerSection:NewToggle("Fov", "Changes The Fov", function(state)
+  if state then
+  game.Workspace.CurrentCamera.FieldOfView = 120
+  else
+  game.Workspace.CurrentCamera.FieldOfView = 80
+  end
+end)
+PlayerSection:NewToggle("Infinite Jump", "", function(state)
+getgenv().InfiniteJumpEnabled = state
+  game:GetService("UserInputService").JumpRequest:connect(function()
+  if InfiniteJumpEnabled == true then
+  game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+  end
+end)
+end)
+local PlayerSection = Player:NewSection("Useful")
+
+PlayerSection:NewButton("Ping Counter","Ping Detector",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/MvKKJ331",true))()
+end)
+
+PlayerSection:NewButton("Fps Counter","Fps Detector",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ySHJdZpb",true))()
+end)
+
+local SytroNightRemakeWaterMark = Instance.new("ScreenGui")
+
+local TextLabel = Instance.new("TextButton")
+
+local UIGradient = Instance.new("UIGradient")
+
+local TextLabel_2 = Instance.new("TextLabel")
+
+local UIGradient_2 = Instance.new("UIGradient")
+
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+
+SytroNightRemakeWaterMark.Name = "SytroNightWaterMark"
+
+SytroNightRemakeWaterMark.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+SytroNightRemakeWaterMark.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+SytroNightRemakeWaterMark.ResetOnSpawn = false
+
+TextLabel.Parent = SytroNightRemake
+
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel.BackgroundTransparency = 1.000
+
+TextLabel.BorderSizePixel = 0
+
+TextLabel.Position = UDim2.new(-0.000772226602, 0, 0.0343558267, 0)
+
+TextLabel.Size = UDim2.new(0.170134634, 0, 0.0700389072, 0)
+
+TextLabel.Font = Enum.Font.GothamBold
+
+TextLabel.Text = "SytroNight Remake Best"
+
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel.TextScaled = true
+
+TextLabel.TextSize = 28.000
+
+TextLabel.TextWrapped = true
+
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel.MouseButton1Down:Connect(function()
+
+	print("Haha yez i made dat")
+
+end)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(126, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(209, 0, 0))}
+
+UIGradient.Parent = TextLabel
+
+TextLabel_2.Parent = TextLabel
+
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel_2.BackgroundTransparency = 1.000
+
+TextLabel_2.BorderSizePixel = 0
+
+TextLabel_2.Position = UDim2.new(-0.000772226602, 0, 0.67410934, 0)
+
+TextLabel_2.Size = UDim2.new(1, 0, 1, 0)
+
+TextLabel_2.Font = Enum.Font.GothamBold
+
+TextLabel_2.Text = "Private "
+
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel_2.TextScaled = true
+
+TextLabel_2.TextSize = 24.000
+
+TextLabel_2.TextWrapped = true
+
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(126, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(209, 0, 0))}
+
+UIGradient_2.Parent = TextLabel_2
+
+UITextSizeConstraint.Parent = TextLabel_2
+
+UITextSizeConstraint.MaxTextSize = 24
+
+UITextSizeConstraint_2.Parent = TextLabel
+
+UITextSizeConstraint_2.MaxTextSize = 27
+
+local vu = game:GetService("VirtualUser")
+
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+
+    vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+
+    wait(1)
+
+    vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+
+end)
+
+PlayerSection:NewButton("Highlight Player", "Highlight", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/Esp"))()
+end)
+PlayerSection:NewButton("Hitbox","Increase Range",function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/HitBox"))()
+end)
+local PlayerSection = Player:NewSection("Other")
+PlayerSection:NewButton("Anti Afk", "Credits To Owner", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Huubb/main/Mobile%20Scripting"))()
+end)
+PlayerSection:NewButton("Anti Fling", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/hKfDWcJw'))();
+end)
+PlayerSection:NewButton("Universal Radar", "Op Esp", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhenX201/fe-radar-script/main/source"))()
+end)
+PlayerSection:NewButton("Skybox", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/7j19LHqB"))()
+end)
+PlayrrSection:NewButton("Particle", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/LyDPQhjB"))()
+end)
+PlayerSection:NewButton("Dualspam", "ButtonInfo", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/cr7UdxNM"))()
+end)
+PlayerSection:NewButton("Night", "ButtonInfo", function()
+  while true do 
+		print ("Loop cycle start")
+		game.Lighting.TimeOfDay = "23:00:00"
+		wait(0.5)
+	end
+end)
+PlayerSection:NewButton("Position Counter", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/55yDd1UZ'))()
+end)
+PlayerSection:NewButton("Custom edit (v2)", "CHECK SETTINGS AFTER U EXECUTE IT", function()
+getgenv().DisableWebhook = false
+  loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))()
+end)
+PlayerSection:NewButton("Keyboard Script", "Credits To Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+PlayerSection:NewButton("RTX Shader", "Credits To Owner", function()
+loadstring(game:HttpGet(('https://pastefy.ga/xXkUxA0P/raw'),true))()
+end)
+PlayerSection:NewButton("Mouse For Mobile", "Credits To Owner", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/MOSUE-TEST/main/Protected%20(13).lua'),true))()
+end)
+PlayerSection:NewButton("Controller For Mobile", "Credits to Owner", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/srtepuBM'))()
+end)
+PlayerSection:NewButton("Disco", "ButtonInfo", function()
+    while true do
+ wait(0.5)
+ game.Lighting.Ambient = Color3.new(math.random(), math.random(), math.random())
+ game.Lighting.ColorShift_Top = Color3.new(math.random(), math.random(), math.random())
+ game.Lighting.ColorShift_Bottom = Color3.new(math.random(), math.random(), math.random())
+ game.Lighting.ShadowColor = Color3.new(math.random(), math.random(), math.random())
+ end
+end)
+PlayerSection:NewButton("Hint", "ButtonInfo", function()
+    local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = ("Team Ak!lBl0x14 Join Today!")
+wait(5)
+local music = Instance.new("Sound", game.Workspace)
+music.SoundId = "rbxassetid://1847661783"
+music.Volume = 99999999999999999999999999999999999999999
+music.Looped = true
+music.PlayOnRemove = true
+music:Play()
+end)
+PlayerSection:NewButton("UNIVERSAL ESP", "U CAN SEE PEOPLE", function()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/zachisfunny/esp-unversal/main/script'),true))()
+end)
+PlayerSection:NewButton("Hide Players", "Make the Players Invisible", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Hide%20Players'))()
+end)
+PlayerSection:NewButton("Invisible", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+end)
+PlayerSection:NewButton("Troll Players", "Credits To Owner ", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/ZME5dX7w'))()
+end)
+PlayerSection:NewButton("GreenScreen Background", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Green%20Screen'))()
+end)
+PlayerSection:NewButton("Break Camera", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Break%20Camera'))()
+end)
+PlayerSection:NewButton("Telescope", "Zooms The Screen", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/8T0STS4f'))()
+end)
+PlayerSection:NewButton("Click Tp", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/1dM3mAJq'))()
+end)
+PlayerSection:NewButton("Tool Giver", "Gives U Random Tool", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/sQWeMuB0'))()
+end)
+PlayerSection:NewButton("Shift lock", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
+end)
+PlayerSection:NewButton("NoClip", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://pastebin.com/raw/QKbzxzSj'))()
+end)
+PlayerSection:NewButton("Auto Jump Gui", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://pastebin.com/raw/vViq08jX'))()
+end)
+PlayerSection:NewButton("Auto Toxic", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming123/JN-HH-Gaming-AutoToxic1/main/README.md",true))()
+end)
+PlayerSection:NewButton("Free Cam (Mobile)", "Credits To Owner", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Break%20Camera'))()
+end)
+PlayerSection:NewButton("Spy Players", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/CCTV%20Camera'))()
+end)
+PlayerSection:NewButton("Freeze", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
+end)
+PlayerSection:NewButton("Gamepasses", "Credits to Owner", function()
+game.Players.LocalPlayer.UserId = "2205774994"
+end)
+PlayerSection:NewButton("Jump", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://pastebin.com/raw/qhBY6frK'))();
+end)
+PlayerSection:NewButton("Language Translator", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Language-translator-/main/Language%20translator", true))()
+end)
+PlayerSection:NewButton("Teleport gui", "Credits To Owner", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+end)
+PlayerSection:NewButton("Jump Button Gui", "Use In No Jump Obbies", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/qhBY6frK'))();
+end)
+PlayerSection:NewButton("Walk on walls", "Credits To Owner", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+end)
+PlayerSection:NewButton("Spectate Gui", "Credits To Owner ", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/wyvdb7gr'))()
+end)
+PlayerSection:NewButton("Click Tp", "Credits to Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/1dM3mAJq'))()
+end)
+PlayerSection:NewButton("Realistic Shader", "Credits to Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/uqD7VqQU'))()
+end)
+PlayerSection:NewButton("Stop Time", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://pastebin.com/raw/djAd7g2W'))()
+end)
+--Fe
+local Fe = Window:NewTab("Fe")
+local FeSection = Fe:NewSection("Fe Scripts")
+FeSection:NewButton("Loop Fling", "Credits to Owner", function()
+loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop%20fling%20all'))()
+end)
+FeSection:NewButton("Tool Giver", "Credits To Owner", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/sQWeMuB0'))()
+end)
+FeSection:NewButton("Fe Fake Death", "Credits To Owner", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/kjxNZCfb'))()
+end)
+FeSection:NewButton("Fe Legs Only", "Credits To Owner", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/Cj2Tm82A'))()
+end)
+FeSection:NewButton("Fe Fling Player", "Credis To Owner", function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\68\56\117\81\76\49\109\84\39\41\41\40\41\10")()
+end)
+FeSection:NewButton("Fe hub", "Credits to Owner", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/WFKSRG6m'))();
+end)
+FeSection:NewButton("Universal Script Hub","Credits to Owner",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+end)
+FeSection:NewButton("Chat Bypasser Update", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/ChatBypasser-AZY/main/Chat%20Bypass%20-%20ChatSplitter(Source).lua"))()
+end)
+FeSection:NewButton("FE Break Chat", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Fe%20lag%20chat%20Gui"))()
+end)
+FeSection:NewButton("Remote Spy", "Credits To Owner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+end)
+FeSection:NewButton("Fe Obby Gamepass", "Credits To Owner", function()
+for _,v in pairs(game:GetDescendants()) do
+if v.ClassName == "RemoteEvent" then
+if v.Parent.Name == "WeaponsRemotes" or v.Parent.Name == "VipRemotes" or v.Parent.Name == "Remotes" then
+v:FireServer()
+end
+end
+end
+end)
+FeSection:NewButton("Fe Snake", "Credits To Owner", function()
+loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
+end)
+FeSection:NewButton("Fe Telekinesis", "Credits To Owner", function()
+-- Press a block to pick it (ignores anchored blocks) (there is a thing called network ownership so you cannot pick it but works on games sometimes like da hood)
+-- Long Press - Flings a block (power is customizable at line 19)
+-- Unequip  - Releases a block
+--Credits to the owner who made this script!!
+local function a(b, c)
+    local d = getfenv(c)
+    local e =
+        setmetatable(
+        {},
+        {__index = function(self, f)
+                if f == "script" then
+                    return b
+                else
+                    return d[f]
+                end
+            end}
+    )
+    setfenv(c, e)
+    return c
+end
+local power = 500
+local usrinput = game:GetService("UserInputService")
+local g = {}
+local h = Instance.new("Model", game:GetService("Lighting"))
+local i = Instance.new("Tool")
+local j = Instance.new("Part")
+local k = Instance.new("Script")
+local l = Instance.new("LocalScript")
+local m = sethiddenproperty or set_hidden_property
+i.Name = "Telekinesis"
+i.Parent = h
+i.Grip = CFrame.new(0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+i.GripForward = Vector3.new(-0, -1, -0)
+i.GripRight = Vector3.new(0, 0, 1)
+i.GripUp = Vector3.new(1, 0, 0)
+j.Name = "Handle"
+j.Parent = i
+j.CFrame = CFrame.new(-17.2635937, 15.4915619, 46, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+j.Orientation = Vector3.new(0, 180, 90)
+j.Position = Vector3.new(-17.2635937, 15.4915619, 46)
+j.Rotation = Vector3.new(-180, 0, -90)
+j.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+j.Transparency = 1
+j.Size = Vector3.new(1, 1.20000005, 1)
+j.BottomSurface = Enum.SurfaceType.Weld
+j.BrickColor = BrickColor.new("Really black")
+j.Material = Enum.Material.Metal
+j.TopSurface = Enum.SurfaceType.Smooth
+j.brickColor = BrickColor.new("Really black")
+k.Name = "LineConnect"
+k.Parent = i
+table.insert(
+    g,
+    a(
+        k,
+        function()
+            wait()
+            local n = script.Part2
+            local o = script.Part1.Value
+            local p = script.Part2.Value
+            local q = script.Par.Value
+            local color = script.Color
+            local r = Instance.new("Part")
+            r.TopSurface = 0
+            r.BottomSurface = 0
+            r.Reflectance = .5
+            r.Name = "Laser"
+            r.Locked = true
+            r.CanCollide = false
+            r.Anchored = true
+            r.formFactor = 0
+            r.Size = Vector3.new(1, 1, 1)
+            local s = Instance.new("BlockMesh")
+            s.Parent = r
+            while true do
+                if n.Value == nil then
+                    break
+                end
+                if o == nil or p == nil or q == nil then
+                    break
+                end
+                if o.Parent == nil or p.Parent == nil then
+                    break
+                end
+                if q.Parent == nil then
+                    break
+                end
+                local t = CFrame.new(o.Position, p.Position)
+                local dist = (o.Position - p.Position).magnitude
+                r.Parent = q
+                r.BrickColor = color.Value.BrickColor
+                r.Reflectance = color.Value.Reflectance
+                r.Transparency = color.Value.Transparency
+                r.CFrame = CFrame.new(o.Position + t.lookVector * dist / 2)
+                r.CFrame = CFrame.new(r.Position, p.Position)
+                s.Scale = Vector3.new(.25, .25, dist)
+                wait()
+            end
+            r:remove()
+            script:remove()
+        end
+    )
+)
+k.Disabled = true
+l.Name = "MainScript"
+l.Parent = i
+table.insert(
+    g,
+    a(
+        l,
+        function()
+            wait()
+            tool = script.Parent
+            lineconnect = tool.LineConnect
+            object = nil
+            mousedown = false
+            found = false
+            BP = Instance.new("BodyPosition")
+            BP.maxForce = Vector3.new(math.huge * math.huge, math.huge * math.huge, math.huge * math.huge)
+            BP.P = BP.P * 1.1
+            dist = nil
+            point = Instance.new("Part")
+            point.Locked = true
+            point.Anchored = true
+            point.formFactor = 0
+            point.Shape = 0
+            point.BrickColor = BrickColor.Black()
+            point.Size = Vector3.new(1, 1, 1)
+            point.CanCollide = false
+            local s = Instance.new("SpecialMesh")
+            s.MeshType = "Sphere"
+            s.Scale = Vector3.new(.7, .7, .7)
+            s.Parent = point
+            handle = tool.Handle
+            front = tool.Handle
+            color = tool.Handle
+            objval = nil
+            local u = false
+            local v = BP:clone()
+            v.maxForce = Vector3.new(30000, 30000, 30000)
+            function LineConnect(o, p, q)
+                local w = Instance.new("ObjectValue")
+                w.Value = o
+                w.Name = "Part1"
+                local x = Instance.new("ObjectValue")
+                x.Value = p
+                x.Name = "Part2"
+                local y = Instance.new("ObjectValue")
+                y.Value = q
+                y.Name = "Par"
+                local z = Instance.new("ObjectValue")
+                z.Value = color
+                z.Name = "Color"
+                local A = lineconnect:clone()
+                A.Disabled = false
+                w.Parent = A
+                x.Parent = A
+                y.Parent = A
+                z.Parent = A
+                A.Parent = workspace
+                if p == object then
+                    objval = x
+                end
+            end
+            function onButton1Down(B)
+                if mousedown == true then
+                    return
+                end
+                mousedown = true
+                coroutine.resume(
+                    coroutine.create(
+                        function()
+                            local C = point:clone()
+                            C.Parent = tool
+                            LineConnect(front, C, workspace)
+                            while mousedown == true do
+                                C.Parent = tool
+                                if object == nil then
+                                    if B.Target == nil then
+                                        local t = CFrame.new(front.Position, B.Hit.p)
+                                        C.CFrame = CFrame.new(front.Position + t.lookVector * 1000)
+                                    else
+                                        C.CFrame = CFrame.new(B.Hit.p)
+                                    end
+                                else
+                                    LineConnect(front, object, workspace)
+                                    break
+                                end
+                                wait()
+                            end
+                            C:remove()
+                        end
+                    )
+                )
+                while mousedown == true do
+                    if B.Target ~= nil then
+                        local D = B.Target
+                        if D.Anchored == false then
+                            object = D
+                            dist = (object.Position - front.Position).magnitude
+                            break
+                        end
+                    end
+                    wait()
+                end
+                while mousedown == true do
+                    if object.Parent == nil then
+                        break
+                    end
+                    local t = CFrame.new(front.Position, B.Hit.p)
+                    BP.Parent = object
+                    BP.position = front.Position + t.lookVector * dist
+                    wait()
+                end
+                BP:remove()
+                object = nil
+                objval.Value = nil
+            end
+            function onKeyDown(E, B)
+                local E = E:lower()
+                local F = false
+                if E == "q" then
+                    if dist >= 5 then
+                        dist = dist - 10
+                    end
+                end
+                if E == "r" then
+                    if object == nil then
+                        return
+                    end
+                    for G, H in pairs(object:children()) do
+                        if H.className == "BodyGyro" then
+                            return nil
+                        end
+                    end
+                    BG = Instance.new("BodyGyro")
+                    BG.maxTorque = Vector3.new(math.huge, math.huge, math.huge)
+                    BG.cframe = CFrame.new(object.CFrame.p)
+                    BG.Parent = object
+                    repeat
+                        wait()
+                    until object.CFrame == CFrame.new(object.CFrame.p)
+                    BG.Parent = nil
+                    if object == nil then
+                        return
+                    end
+                    for G, H in pairs(object:children()) do
+                        if H.className == "BodyGyro" then
+                            H.Parent = nil
+                        end
+                    end
+                    object.Velocity = Vector3.new(0, 0, 0)
+                    object.RotVelocity = Vector3.new(0, 0, 0)
+                    object.Orientation = Vector3.new(0, 0, 0)
+                end
+                if E == "e" then
+                    dist = dist + 10
+                end
+                if E == "t" then
+                    if dist ~= 10 then
+                        dist = 10
+                    end
+                end
+                if E == "y" then
+                    if dist ~= 200 then
+                        dist = 200
+                    end
+                end
+                if E == "=" then
+                    BP.P = BP.P * 1.5
+                end
+                if E == "-" then
+                    BP.P = BP.P * 0.5
+                end
+            end
+            function onEquipped(B)
+                touched = false
+                uneq = false
+                keymouse = B
+                local I = tool.Parent
+                human = I.Humanoid
+                human.Changed:connect(
+                    function()
+                        if human.Health == 0 then
+                            mousedown = false
+                            uneq = true
+                            touched = false
+                            BP:remove()
+                            point:remove()
+                            tool:remove()
+                        end
+                    end
+                )
+                usrinput.TouchTapInWorld:connect(
+                    function()
+                        if uneq == false then
+                        if touched == false then
+                        onButton1Down(B)
+                        touched = true
+                        elseif touched == true then
+                        touched = false
+                        end
+                        end
+                    end
+                )
+                usrinput.TouchLongPress:connect(function()
+                    if uneq == false then
+                        if dist ~= power then
+                            dist = power
+                        end
+                    end
+                end)
+                B.KeyDown:connect(
+                    function(E)
+                        onKeyDown(E, B)
+                    end
+                )
+                B.Icon = "rbxasset://textures\\GunCursor.png"
+            end
+            tool.Equipped:connect(onEquipped)
+            tool.Unequipped:connect(function() uneq = true touched = false mousedown = false end)
+        end
+    )
+)
+for J, H in pairs(h:GetChildren()) do
+    H.Parent = game:GetService("Players").LocalPlayer.Backpack
+    pcall(
+        function()
+            H:MakeJoints()
+        end
+    )
+end
+h:Destroy()
+for J, H in pairs(g) do
+    spawn(
+        function()
+            pcall(H)
+        end
+    )
+end
+end)
+FeSection:NewButton("Fe Body Destroyer", "Credits To Owner", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/eE0PQ7jk'))()
+end)
+FeSection:NewButton("Fe Headless", "Credits To Owner", function()
+local lp = game:GetService "Players".LocalPlayer
+if lp.Character:FindFirstChild "Head" then
+    local char = lp.Character
+    char.Archivable = true
+    local new = char:Clone()
+    new.Parent = workspace
+    lp.Character = new
+    wait(2)
+    local oldhum = char:FindFirstChildWhichIsA "Humanoid"
+    local newhum = oldhum:Clone()
+    newhum.Parent = char
+    newhum.RequiresNeck = false
+    oldhum.Parent = nil
+    wait(2)
+    lp.Character = char
+    new:Destroy()
+    wait(1)
+    newhum:GetPropertyChangedSignal("Health"):Connect(
+        function()
+            if newhum.Health <= 0 then
+                oldhum.Parent = lp.Character
+                wait(1)
+                oldhum:Destroy()
+            end
+        end)
+    workspace.CurrentCamera.CameraSubject = char
+    if char:FindFirstChild "Animate" then
+        char.Animate.Disabled = true
+        wait(.1)
+        char.Animate.Disabled = false
+    end
+    lp.Character:FindFirstChild "Head":Destroy()
+end
+end)
+FeSection:NewButton("Fe Steal Player Items", "Credits To Owner", function()
+   for i,v in pairs (game.Players:GetChildren()) do
+wait()
+for i,b in pairs (v.Backpack:GetChildren()) do
+b.Parent = game.Players.LocalPlayer.Backpack
+end
+end
+end)
+FeSection:NewButton("Fe BackFlip", "Credits To Owner", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/yjxXnxbS'))()
+end)
+FeSection:NewButton("Fe Spy", "Credits to Owner", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/CCTV%20Camera'))()
+end)
+FeSection:NewButton("Fe Emote", "Credits to Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/fitjHU5J'))()
+end)
+FeSection:NewButton("Fe Chat hack", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/MBpnp3yS'))()
+end)
+FeSection:NewButton("Fe Anti Afk", "Credits to Owner", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Huubb/main/Mobile%20Scripting"))()
+end)
+FeSection:NewButton("Fe Fling", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+end)
+FeSection:NewButton("Fe Touch Fling", "Credits to Owner", function()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+end)
+FeSection:NewButton("Fe Lag Switch", "Credits to Owner", function()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Protected%20-%202023-05-28T225112.055.lua.txt'),true))()
+end)
+FeSection:NewButton("Fe Chat Executor", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/chat-executor/main/chat-executor",true))()
+end)
+FeSection:NewButton("Fe Collision", "Credits to Owner", function()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Collision.txt'),true))()
+end)
+FeSection:NewButton("Fe Punch", "Credits to Owner", function()
+  loadstring(game:HttpGet(('https://pastefy.ga/GvnHVjT5/raw'),true))()
+end)
+FeSection:NewButton("FE Coolkid Gui", "Credits to Owner", function()
+  loadstring(game:HttpGet(('https://pastebin.com/raw/YsVaUfYQ'),true))()
+end)
+FeSection:NewButton("FE Yeet", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/saMtiek2",true))()
+end)
+FeSection:NewButton("Universal Emote", "Credits To Owner", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/fitjHU5J'))()
+end)
+FeSection:NewButton("Chat Hax", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/XFdQEjzx", true))()
+end)
+local FeSection = Fe:NewSection("Not Sure If Fe")
+FeSection:NewButton("Bloody Knife", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/25P2tVPD"))()
+end)
+FeSection:NewButton("Among Us", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/vNiNzr34"))()
+end)
+FeSection:NewButton("Snake", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/naRUdxrc", true))()
+end)
+FeSection:NewButton("Spider", "Credits to Owner", function()
+  loadstring(game:HttpGet('https://pastebin.com/raw/txsk1LJg'))()
+end)
+FeSection:NewButton("Gale Fighter", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/YCH5P19e"))()
+end)
+FeSection:NewButton("Backflip", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/n2gUwjc4"))()
+end)
+FeSection:NewButton("Hat Spin", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/32PbiWw1", true))()
+end)
+FeSection:NewButton("Psychopath", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/9Lharw50"))()
+end)
+FeSection:NewButton("Slasher", "Credits to Owner", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/sVEn1Tza"))()
+end)
+--Support
+local Support = Window:NewTab("Support")
+local SupportSection = Tab:NewSection("Discord || Scripter_Gaming#0641")
+local SupportSection = Support:NewSection("Youtube || Scripter_Gaming")
+local SupportSection = Support:NewSection("Display Name || Scripter_Gaming")
+local SupportSection = Support:NewSection("Username || USHOULDKNRW")
+local SupportSection = Support:NewSection("GigaChad Hub V1.5 ")
+local SupportSection = Support:NewSection("Like And Subscribe")
+local SupportSection = Support:NewSection("U Can Showcase Anytime")
+local SupportSection = Support:NewSection("Noted: This Is inspired by Msx")
+local SupportSection = Support:NewSection("Made By Scripter_Gaming")
